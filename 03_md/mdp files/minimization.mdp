@@ -1,25 +1,3 @@
-; Energy Minimization
-integrator               = steep
-; Use steepest descent for energy minimization.
-dt                       = 0.001
-nsteps                   = 50000
-; Maximum number of steps for minimization.
-
-; Minimization-specific parameters
-emtol                    = 100.0
-; The minimization will stop when the maximum force on any atom is less than 100 kJ/mol/nm.
-emstep                   = 0.01
-; Initial step-size for the steepest descent algorithm.
-
-; Output control
-nstxout                  = 5000
-nstvout                  = 5000
-nstenergy                = 5000
-nstlog                   = 5000
-
-; Non-bonded settings
-cutoff-scheme            = Verlet
-coulombtype              = PME
-rcoulomb                 = 1.0
-vdwtype                  = Cut-off
-rvdw                     = 1.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:30f4425e41d683b9a68e8d21b16370efe001456271e0d56c378eea35ff93f505
+size 793

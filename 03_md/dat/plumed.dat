@@ -1,35 +1,3 @@
-# -----------------
-# Define Collective Variables (CVs)
-# -----------------
-dist_d23_f: DISTANCE ATOMS=364,303
-dist_d28_f: DISTANCE ATOMS=432,303
-
-# -----------------
-# VQE-GROMACS Hybrid Interface
-# The 'STRIDE' keyword tells PLUMED to call your VQE script only every 1000 steps,
-# which is crucial for speed.
-# -----------------
-vqe_energy: EXTERNAL COMMAND="python your_vqe_script.py" \
-   OUTPUT="energy:1 force:3N" \
-   STRIDE=1000 \
-   NATOMS=26874
-
-# -----------------
-# Metadynamics Parameters (Accelerated)
-# - HEIGHT is high to fill the energy surface faster.
-# - PACE is low to deposit hills more frequently.
-# - SIGMA is large to cover a wider area.
-# -----------------
-mymetad: METAD ARG=dist_d23_f,dist_d28_f HEIGHT=5.0 PACE=200 SIGMA=0.2,0.2
-
-# -----------------
-# Output Files (Optimized for Speed)
-# - The print stride is high to reduce I/O overhead.
-# -----------------
-PRINT STRIDE=1000 ARG=dist_d23_f,dist_d28_f,mymetad.bias,vqe_energy FILE=colvar.dat
-
-# This is the correct way to calculate the FES
-fes_bias: REWEIGHT_BIAS ARG=mymetad.bias TEMP=300
-
-# This PRINT command outputs the FES
-PRINT STRIDE=10000 ARG=fes_bias FILE=fes.dat
+version https://git-lfs.github.com/spec/v1
+oid sha256:b1a17ed5bc63ce79e056e09b364f077a2c046e1ee5fdb29d4afc0cdb5b82ab19
+size 1153
