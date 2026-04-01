@@ -1,0 +1,45 @@
+# This file was created Fri Aug 15 01:35:07 2025
+# Created by:
+#                 :-) GROMACS - gmx cluster, 2025.1-Homebrew (-:
+# 
+# Executable:   /opt/homebrew/bin/../Cellar/gromacs/2025.1/bin/gmx
+# Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2025.1
+# Working dir:  /Users/kushalpatil/Downloads/md
+# Command line:
+#   gmx cluster -s md.tpr -f md.xtc -n index.ndx -o clusting.xpm -g cluster.log -sz clust-size.xvg
+# gmx cluster is part of G R O M A C S:
+#
+# Great Red Oystrich Makes All Chemists Sane
+#
+@    title "Cluster Sizes"
+@    xaxis  label "Cluster #"
+@    yaxis  label "# Structures"
+@TYPE xy
+@g0 type bar
+       1       90
+       2      918
+       3        4
+       4        1
+       5       67
+       6        1
+       7       11
+       8      856
+       9        1
+      10        1
+      11       51
+      12      212
+      13        1
+      14        2
+      15      113
+      16       99
+      17        1
+      18        1
+      19        1
+      20       26
+      21        4
+      22        5
+      23        1
+      24       21
+      25        2
+      26       10
+      27        1

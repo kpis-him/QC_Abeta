@@ -1,0 +1,20 @@
+Covariance analysis log, written Mon Aug  4 13:47:54 2025
+
+Program: covar
+Working directory: /Users/kushalpatil/Downloads/md
+
+Read 2501 frames from md_nop.xtc (time 0 to 50000 ps)
+Read reference structure for fit from md.tpr
+
+Analysis group is 'C-alpha' (42 atoms)
+Fit group is 'C-alpha' (42 atoms)
+Analysis is non-mass weighted
+Fit is non-mass weighted
+Diagonalized the 126x126 covariance matrix
+Trace of the covariance matrix before diagonalizing: 17.1693
+Trace of the covariance matrix after diagonalizing: 17.1693
+
+Wrote 126 eigenvalues to eigenvalues.xvg
+Wrote reference structure to eigenvectors.trr
+Wrote average structure to average.pdb and eigenvectors.trr
+Wrote eigenvectors 1 to 126 to eigenvectors.trr

@@ -1,0 +1,3561 @@
+In gmx_physicalnode_id_hash: hash 0
+hw_opt: nt 0 ntmpi 1 ntomp 0 ntomp_pme 0 gpu_id '' gputasks ''
+In gmx_physicalnode_id_hash: hash 0
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.028340
+Verlet buffer LJ max pressure error relative to average: factor 4.00
+ib  -1 140 282 rb 0.140 4x4 fac 0.105 drift 2.1e-10
+Verlet buffer LJ max pressure error relative to average: factor 4.00
+ib  -1  69 140 rb 0.069 4x4 fac 0.107 drift 3.1e-07
+Verlet buffer LJ max pressure error relative to average: factor 3.91
+ib  -1  34  69 rb 0.034 4x4 fac 0.109 drift 6.5e-06
+Verlet buffer LJ max pressure error relative to average: factor 3.61
+ib  -1  16  34 rb 0.016 4x4 fac 0.110 drift 2.5e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.35
+ib  -1   7  16 rb 0.007 4x4 fac 0.110 drift 4.7e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.20
+ib  -1   3   7 rb 0.003 4x4 fac 0.110 drift 6.2e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.11
+ib  -1   1   3 rb 0.001 4x4 fac 0.110 drift 7.2e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.06
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 7.7e-05
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.028340
+Verlet buffer LJ max pressure error relative to average: factor 4.00
+ib  -1 140 282 rb 0.140 4x4 fac 0.105 drift 2.1e-10
+Verlet buffer LJ max pressure error relative to average: factor 4.00
+ib  -1  69 140 rb 0.069 4x4 fac 0.107 drift 3.1e-07
+Verlet buffer LJ max pressure error relative to average: factor 3.91
+ib  -1  34  69 rb 0.034 4x4 fac 0.109 drift 6.5e-06
+Verlet buffer LJ max pressure error relative to average: factor 3.61
+ib  -1  16  34 rb 0.016 4x4 fac 0.110 drift 2.5e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.35
+ib  -1   7  16 rb 0.007 4x4 fac 0.110 drift 4.7e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.20
+ib  -1   3   7 rb 0.003 4x4 fac 0.110 drift 6.2e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.11
+ib  -1   1   3 rb 0.001 4x4 fac 0.110 drift 7.2e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.06
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 7.7e-05
+nstlist tuning: rlist_inc 0.400 rlist_ok 1.324 rlist_max 1.368
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.059830
+Verlet buffer LJ max pressure error relative to average: factor 7.94
+ib  -1 297 596 rb 0.297 4x4 fac 0.099 drift 2.7e-10
+Verlet buffer LJ max pressure error relative to average: factor 7.04
+ib  -1 148 297 rb 0.148 4x4 fac 0.104 drift 6.1e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.62
+ib  -1  73 148 rb 0.073 4x4 fac 0.107 drift 1.6e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.63
+ib  -1  36  73 rb 0.036 4x4 fac 0.109 drift 6.6e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.13
+ib  -1  17  36 rb 0.017 4x4 fac 0.110 drift 1.3e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.86
+ib  -1   8  17 rb 0.008 4x4 fac 0.110 drift 1.8e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.69
+ib  -1   3   8 rb 0.003 4x4 fac 0.110 drift 2.1e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.61
+ib  -1   1   3 rb 0.001 4x4 fac 0.110 drift 2.3e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.57
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 2.3e-04
+nstlist 20 rlist 1.200 bBox true bDD true
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.075575
+Verlet buffer LJ max pressure error relative to average: factor 9.66
+ib  -1 375 752 rb 0.375 4x4 fac 0.097 drift 2.2e-10
+Verlet buffer LJ max pressure error relative to average: factor 7.83
+ib  -1 187 375 rb 0.187 4x4 fac 0.103 drift 6.9e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.94
+ib  -1  93 187 rb 0.093 4x4 fac 0.106 drift 2.1e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.79
+ib  -1  46  93 rb 0.046 4x4 fac 0.108 drift 9.1e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.23
+ib  -1  22  46 rb 0.022 4x4 fac 0.109 drift 1.8e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.93
+ib  -1  10  22 rb 0.010 4x4 fac 0.110 drift 2.6e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.75
+ib  -1   4  10 rb 0.004 4x4 fac 0.110 drift 3.1e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.66
+ib  -1   1   4 rb 0.001 4x4 fac 0.110 drift 3.4e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.63
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 3.5e-04
+nstlist 25 rlist 1.200 bBox true bDD true
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.122809
+Verlet buffer LJ max pressure error relative to average: factor 12.84
+ib  -1 610 1222 rb 0.610 4x4 fac 0.092 drift 3.1e-11
+Verlet buffer LJ max pressure error relative to average: factor 8.55
+ib  -1 304 610 rb 0.304 4x4 fac 0.099 drift 5.1e-07
+Verlet buffer LJ max pressure error relative to average: factor 6.03
+ib  -1 151 304 rb 0.151 4x4 fac 0.104 drift 2.9e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.75
+ib  -1  75 151 rb 0.075 4x4 fac 0.107 drift 1.6e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.20
+ib  -1  37  75 rb 0.037 4x4 fac 0.109 drift 3.7e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.90
+ib  -1  18  37 rb 0.018 4x4 fac 0.110 drift 5.4e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.72
+ib  -1   8  18 rb 0.008 4x4 fac 0.110 drift 6.7e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.62
+ib  -1   3   8 rb 0.003 4x4 fac 0.110 drift 7.4e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.58
+ib  -1   1   3 rb 0.001 4x4 fac 0.110 drift 7.7e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.56
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 7.9e-04
+nstlist 40 rlist 1.200 bBox true bDD true
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.154298
+Verlet buffer LJ max pressure error relative to average: factor 13.44
+ib  -1 767 1535 rb 0.767 4x4 fac 0.090 drift 3.0e-12
+Verlet buffer LJ max pressure error relative to average: factor 8.28
+ib  -1 383 767 rb 0.383 4x4 fac 0.097 drift 2.6e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.79
+ib  -1 191 383 rb 0.191 4x4 fac 0.103 drift 2.6e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.58
+ib  -1  95 191 rb 0.095 4x4 fac 0.106 drift 1.9e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.08
+ib  -1  47  95 rb 0.047 4x4 fac 0.108 drift 4.7e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.80
+ib  -1  23  47 rb 0.023 4x4 fac 0.109 drift 7.4e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.64
+ib  -1  11  23 rb 0.011 4x4 fac 0.110 drift 9.2e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.55
+ib  -1   5  11 rb 0.005 4x4 fac 0.110 drift 1.0e-03
+Verlet buffer LJ max pressure error relative to average: factor 3.50
+ib  -1   2   5 rb 0.002 4x4 fac 0.110 drift 1.1e-03
+Verlet buffer LJ max pressure error relative to average: factor 3.47
+ib  -1   0   2 rb 0.000 4x4 fac 0.110 drift 1.1e-03
+nstlist 50 rlist 1.200 bBox true bDD true
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.248766
+Verlet buffer LJ max pressure error relative to average: factor 13.00
+ib  -1 1237 2475 rb 1.237 4x4 fac 0.084 drift 3.5e-17
+Verlet buffer LJ max pressure error relative to average: factor 7.04
+ib  -1 618 1237 rb 0.618 4x4 fac 0.092 drift 7.2e-09
+Verlet buffer LJ max pressure error relative to average: factor 5.29
+ib  -1 308 618 rb 0.308 4x4 fac 0.099 drift 8.9e-06
+Verlet buffer LJ max pressure error relative to average: factor 4.49
+ib  -1 153 308 rb 0.153 4x4 fac 0.104 drift 1.8e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.07
+ib  -1  76 153 rb 0.076 4x4 fac 0.107 drift 7.0e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.76
+ib  -1  37  76 rb 0.037 4x4 fac 0.109 drift 1.3e-03
+Verlet buffer LJ max pressure error relative to average: factor 3.92
+ib  37  56  76 rb 0.056 4x4 fac 0.108 drift 9.8e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.00
+ib  56  66  76 rb 0.066 4x4 fac 0.107 drift 8.3e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.96
+ib  56  61  66 rb 0.061 4x4 fac 0.108 drift 9.0e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.94
+ib  56  58  61 rb 0.058 4x4 fac 0.108 drift 9.5e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.95
+ib  58  59  61 rb 0.059 4x4 fac 0.108 drift 9.3e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.95
+ib  59  60  61 rb 0.060 4x4 fac 0.108 drift 9.2e-04
+nstlist 80 rlist 1.261 bBox true bDD true
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.311745
+Verlet buffer LJ max pressure error relative to average: factor 20.23
+ib  -1 1550 3101 rb 1.550 4x4 fac 0.081 drift 9.9e-21
+Verlet buffer LJ max pressure error relative to average: factor 9.46
+ib  -1 774 1550 rb 0.774 4x4 fac 0.089 drift 6.7e-10
+Verlet buffer LJ max pressure error relative to average: factor 6.62
+ib  -1 386 774 rb 0.386 4x4 fac 0.097 drift 5.0e-06
+Verlet buffer LJ max pressure error relative to average: factor 5.32
+ib  -1 192 386 rb 0.192 4x4 fac 0.103 drift 2.0e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.51
+ib  -1  95 192 rb 0.095 4x4 fac 0.106 drift 9.8e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.94
+ib  95 143 192 rb 0.143 4x4 fac 0.104 drift 4.5e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.73
+ib  95 119 143 rb 0.119 4x4 fac 0.105 drift 6.7e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.63
+ib  95 107 119 rb 0.107 4x4 fac 0.106 drift 8.1e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.57
+ib  95 101 107 rb 0.101 4x4 fac 0.106 drift 8.9e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.60
+ib 101 104 107 rb 0.104 4x4 fac 0.106 drift 8.5e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.58
+ib 101 102 104 rb 0.102 4x4 fac 0.106 drift 8.8e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.59
+ib 102 103 104 rb 0.103 4x4 fac 0.106 drift 8.7e-04
+nstlist 100 rlist 1.303 bBox true bDD true
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+graph partNr[] numAtomsChanged=116, bMultiPart=true
+graph partNr[] numAtomsChanged=0, bMultiPart=true
+nr. of distance calculations in bondeds: C 182.8 SIMD 1484.2
+Average nr of pbc_dx calls per atom 1.54
+nc  1  1  1  1  1 vol pp 0.0000 pbcdx 0.1536 pme 0.000e+00 tot 1.536e-01
+Bonded atom communication beyond the cut-off: false
+cellsize limit 1.511415
+The DD cut-off is 1.511415
+PME slab communication range for dim 0 is 1
+Volume fraction for all DD zones: 1.000000
+Making load communicators
+hw_opt: nt 0 ntmpi 1 ntomp 0 ntomp_pme 0 gpu_id '' gputasks ''
+Ewald Coulomb quadratic spline table spacing: 0.001022 nm
+Setting up tables
+Setting up tables
+Setting up tables
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Verlet buffer LJ max pressure error relative to average: factor 4.59
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.012596
+Verlet buffer LJ max pressure error relative to average: factor 2.00
+ib  -1  62 126 rb 0.062 4x4 fac 0.108 drift 8.6e-11
+Verlet buffer LJ max pressure error relative to average: factor 2.00
+ib  -1  30  62 rb 0.030 4x4 fac 0.109 drift 1.3e-07
+Verlet buffer LJ max pressure error relative to average: factor 2.00
+ib  -1  14  30 rb 0.014 4x4 fac 0.110 drift 2.7e-06
+Verlet buffer LJ max pressure error relative to average: factor 2.00
+ib  -1   6  14 rb 0.006 4x4 fac 0.110 drift 1.0e-05
+Verlet buffer LJ max pressure error relative to average: factor 2.00
+ib  -1   2   6 rb 0.002 4x4 fac 0.110 drift 1.9e-05
+Verlet buffer LJ max pressure error relative to average: factor 2.00
+ib  -1   0   2 rb 0.000 4x4 fac 0.110 drift 2.6e-05
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.015745
+Verlet buffer LJ max pressure error relative to average: factor 2.00
+ib  -1  78 157 rb 0.078 4x4 fac 0.107 drift 1.0e-10
+Verlet buffer LJ max pressure error relative to average: factor 2.00
+ib  -1  38  78 rb 0.038 4x4 fac 0.109 drift 1.6e-07
+Verlet buffer LJ max pressure error relative to average: factor 2.00
+ib  -1  18  38 rb 0.018 4x4 fac 0.110 drift 3.4e-06
+Verlet buffer LJ max pressure error relative to average: factor 2.00
+ib  -1   8  18 rb 0.008 4x4 fac 0.110 drift 1.3e-05
+Verlet buffer LJ max pressure error relative to average: factor 2.00
+ib  -1   3   8 rb 0.003 4x4 fac 0.110 drift 2.4e-05
+Verlet buffer LJ max pressure error relative to average: factor 2.00
+ib  -1   1   3 rb 0.001 4x4 fac 0.110 drift 3.1e-05
+Verlet buffer LJ max pressure error relative to average: factor 2.00
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 3.5e-05
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.018894
+Verlet buffer LJ max pressure error relative to average: factor 6.65
+ib  -1  93 188 rb 0.093 4x4 fac 0.106 drift 1.4e-10
+Verlet buffer LJ max pressure error relative to average: factor 4.97
+ib  -1  46  93 rb 0.046 4x4 fac 0.108 drift 1.9e-07
+Verlet buffer LJ max pressure error relative to average: factor 3.55
+ib  -1  22  46 rb 0.022 4x4 fac 0.109 drift 4.1e-06
+Verlet buffer LJ max pressure error relative to average: factor 2.96
+ib  -1  10  22 rb 0.010 4x4 fac 0.110 drift 1.5e-05
+Verlet buffer LJ max pressure error relative to average: factor 2.73
+ib  -1   4  10 rb 0.004 4x4 fac 0.110 drift 2.9e-05
+Verlet buffer LJ max pressure error relative to average: factor 2.60
+ib  -1   1   4 rb 0.001 4x4 fac 0.110 drift 4.0e-05
+Verlet buffer LJ max pressure error relative to average: factor 2.56
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 4.5e-05
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.022043
+Verlet buffer LJ max pressure error relative to average: factor 5.33
+ib  -1 109 220 rb 0.109 4x4 fac 0.106 drift 1.6e-10
+Verlet buffer LJ max pressure error relative to average: factor 5.10
+ib  -1  54 109 rb 0.054 4x4 fac 0.108 drift 2.2e-07
+Verlet buffer LJ max pressure error relative to average: factor 4.25
+ib  -1  26  54 rb 0.026 4x4 fac 0.109 drift 4.9e-06
+Verlet buffer LJ max pressure error relative to average: factor 3.51
+ib  -1  12  26 rb 0.012 4x4 fac 0.110 drift 1.8e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.16
+ib  -1   5  12 rb 0.005 4x4 fac 0.110 drift 3.5e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.00
+ib  -1   2   5 rb 0.002 4x4 fac 0.110 drift 4.6e-05
+Verlet buffer LJ max pressure error relative to average: factor 2.89
+ib  -1   0   2 rb 0.000 4x4 fac 0.110 drift 5.5e-05
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.025192
+Verlet buffer LJ max pressure error relative to average: factor 4.50
+ib  -1 125 251 rb 0.125 4x4 fac 0.105 drift 1.7e-10
+Verlet buffer LJ max pressure error relative to average: factor 4.47
+ib  -1  62 125 rb 0.062 4x4 fac 0.108 drift 2.5e-07
+Verlet buffer LJ max pressure error relative to average: factor 4.18
+ib  -1  30  62 rb 0.030 4x4 fac 0.109 drift 5.6e-06
+Verlet buffer LJ max pressure error relative to average: factor 3.66
+ib  -1  14  30 rb 0.014 4x4 fac 0.110 drift 2.1e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.34
+ib  -1   6  14 rb 0.006 4x4 fac 0.110 drift 4.1e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.14
+ib  -1   2   6 rb 0.002 4x4 fac 0.110 drift 5.6e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.03
+ib  -1   0   2 rb 0.000 4x4 fac 0.110 drift 6.5e-05
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.028340
+Verlet buffer LJ max pressure error relative to average: factor 4.00
+ib  -1 140 282 rb 0.140 4x4 fac 0.105 drift 2.1e-10
+Verlet buffer LJ max pressure error relative to average: factor 4.00
+ib  -1  69 140 rb 0.069 4x4 fac 0.107 drift 3.1e-07
+Verlet buffer LJ max pressure error relative to average: factor 3.91
+ib  -1  34  69 rb 0.034 4x4 fac 0.109 drift 6.5e-06
+Verlet buffer LJ max pressure error relative to average: factor 3.61
+ib  -1  16  34 rb 0.016 4x4 fac 0.110 drift 2.5e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.35
+ib  -1   7  16 rb 0.007 4x4 fac 0.110 drift 4.7e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.20
+ib  -1   3   7 rb 0.003 4x4 fac 0.110 drift 6.2e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.11
+ib  -1   1   3 rb 0.001 4x4 fac 0.110 drift 7.2e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.06
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 7.7e-05
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.031489
+Verlet buffer LJ max pressure error relative to average: factor 3.67
+ib  -1 156 314 rb 0.156 4x4 fac 0.104 drift 2.2e-10
+Verlet buffer LJ max pressure error relative to average: factor 3.67
+ib  -1  77 156 rb 0.077 4x4 fac 0.107 drift 3.4e-07
+Verlet buffer LJ max pressure error relative to average: factor 3.64
+ib  -1  38  77 rb 0.038 4x4 fac 0.109 drift 7.3e-06
+Verlet buffer LJ max pressure error relative to average: factor 3.47
+ib  -1  18  38 rb 0.018 4x4 fac 0.110 drift 2.8e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.29
+ib  -1   8  18 rb 0.008 4x4 fac 0.110 drift 5.3e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.15
+ib  -1   3   8 rb 0.003 4x4 fac 0.110 drift 7.3e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.08
+ib  -1   1   3 rb 0.001 4x4 fac 0.110 drift 8.4e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.04
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 8.9e-05
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.034638
+Verlet buffer LJ max pressure error relative to average: factor 8.54
+ib  -1 172 345 rb 0.172 4x4 fac 0.103 drift 2.3e-10
+Verlet buffer LJ max pressure error relative to average: factor 5.70
+ib  -1  85 172 rb 0.085 4x4 fac 0.107 drift 3.8e-07
+Verlet buffer LJ max pressure error relative to average: factor 4.47
+ib  -1  42  85 rb 0.042 4x4 fac 0.109 drift 8.2e-06
+Verlet buffer LJ max pressure error relative to average: factor 3.90
+ib  -1  20  42 rb 0.020 4x4 fac 0.110 drift 3.2e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.58
+ib  -1   9  20 rb 0.009 4x4 fac 0.110 drift 6.0e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.40
+ib  -1   4   9 rb 0.004 4x4 fac 0.110 drift 8.1e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.27
+ib  -1   1   4 rb 0.001 4x4 fac 0.110 drift 9.6e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.22
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 1.0e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.037787
+Verlet buffer LJ max pressure error relative to average: factor 8.33
+ib  -1 187 376 rb 0.187 4x4 fac 0.103 drift 2.6e-10
+Verlet buffer LJ max pressure error relative to average: factor 6.57
+ib  -1  93 187 rb 0.093 4x4 fac 0.106 drift 4.1e-07
+Verlet buffer LJ max pressure error relative to average: factor 4.98
+ib  -1  46  93 rb 0.046 4x4 fac 0.108 drift 9.1e-06
+Verlet buffer LJ max pressure error relative to average: factor 4.17
+ib  -1  22  46 rb 0.022 4x4 fac 0.109 drift 3.5e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.76
+ib  -1  10  22 rb 0.010 4x4 fac 0.110 drift 6.8e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.53
+ib  -1   4  10 rb 0.004 4x4 fac 0.110 drift 9.3e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.39
+ib  -1   1   4 rb 0.001 4x4 fac 0.110 drift 1.1e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.34
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 1.2e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.040936
+Verlet buffer LJ max pressure error relative to average: factor 6.97
+ib  -1 203 408 rb 0.203 4x4 fac 0.102 drift 2.6e-10
+Verlet buffer LJ max pressure error relative to average: factor 6.34
+ib  -1 101 203 rb 0.101 4x4 fac 0.106 drift 4.4e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.13
+ib  -1  50 101 rb 0.050 4x4 fac 0.108 drift 1.0e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.29
+ib  -1  24  50 rb 0.024 4x4 fac 0.109 drift 3.9e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.86
+ib  -1  11  24 rb 0.011 4x4 fac 0.110 drift 7.5e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.63
+ib  -1   5  11 rb 0.005 4x4 fac 0.110 drift 1.0e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.50
+ib  -1   2   5 rb 0.002 4x4 fac 0.110 drift 1.2e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.40
+ib  -1   0   2 rb 0.000 4x4 fac 0.110 drift 1.3e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.044085
+Verlet buffer LJ max pressure error relative to average: factor 6.00
+ib  -1 219 439 rb 0.219 4x4 fac 0.102 drift 2.7e-10
+Verlet buffer LJ max pressure error relative to average: factor 5.79
+ib  -1 109 219 rb 0.109 4x4 fac 0.106 drift 4.6e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.04
+ib  -1  54 109 rb 0.054 4x4 fac 0.108 drift 1.1e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.29
+ib  -1  26  54 rb 0.026 4x4 fac 0.109 drift 4.3e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.88
+ib  -1  12  26 rb 0.012 4x4 fac 0.110 drift 8.3e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.64
+ib  -1   5  12 rb 0.005 4x4 fac 0.110 drift 1.2e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.51
+ib  -1   2   5 rb 0.002 4x4 fac 0.110 drift 1.3e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.42
+ib  -1   0   2 rb 0.000 4x4 fac 0.110 drift 1.5e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.047234
+Verlet buffer LJ max pressure error relative to average: factor 5.33
+ib  -1 234 470 rb 0.234 4x4 fac 0.101 drift 2.9e-10
+Verlet buffer LJ max pressure error relative to average: factor 5.26
+ib  -1 116 234 rb 0.116 4x4 fac 0.105 drift 5.2e-07
+Verlet buffer LJ max pressure error relative to average: factor 4.82
+ib  -1  57 116 rb 0.057 4x4 fac 0.108 drift 1.2e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.23
+ib  -1  28  57 rb 0.028 4x4 fac 0.109 drift 4.8e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.86
+ib  -1  13  28 rb 0.013 4x4 fac 0.110 drift 9.2e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.64
+ib  -1   6  13 rb 0.006 4x4 fac 0.110 drift 1.2e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.50
+ib  -1   2   6 rb 0.002 4x4 fac 0.110 drift 1.5e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.42
+ib  -1   0   2 rb 0.000 4x4 fac 0.110 drift 1.6e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.050383
+Verlet buffer LJ max pressure error relative to average: factor 9.39
+ib  -1 250 502 rb 0.250 4x4 fac 0.101 drift 2.8e-10
+Verlet buffer LJ max pressure error relative to average: factor 6.62
+ib  -1 124 250 rb 0.124 4x4 fac 0.105 drift 5.5e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.25
+ib  -1  61 124 rb 0.061 4x4 fac 0.108 drift 1.3e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.43
+ib  -1  30  61 rb 0.030 4x4 fac 0.109 drift 5.2e-05
+Verlet buffer LJ max pressure error relative to average: factor 3.98
+ib  -1  14  30 rb 0.014 4x4 fac 0.110 drift 1.0e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.72
+ib  -1   6  14 rb 0.006 4x4 fac 0.110 drift 1.4e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.57
+ib  -1   2   6 rb 0.002 4x4 fac 0.110 drift 1.6e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.49
+ib  -1   0   2 rb 0.000 4x4 fac 0.110 drift 1.8e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.053532
+Verlet buffer LJ max pressure error relative to average: factor 10.31
+ib  -1 266 533 rb 0.266 4x4 fac 0.100 drift 2.8e-10
+Verlet buffer LJ max pressure error relative to average: factor 7.34
+ib  -1 132 266 rb 0.132 4x4 fac 0.105 drift 5.7e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.53
+ib  -1  65 132 rb 0.065 4x4 fac 0.108 drift 1.4e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.56
+ib  -1  32  65 rb 0.032 4x4 fac 0.109 drift 5.7e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.07
+ib  -1  15  32 rb 0.015 4x4 fac 0.110 drift 1.1e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.81
+ib  -1   7  15 rb 0.007 4x4 fac 0.110 drift 1.5e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.66
+ib  -1   3   7 rb 0.003 4x4 fac 0.110 drift 1.8e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.58
+ib  -1   1   3 rb 0.001 4x4 fac 0.110 drift 1.9e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.54
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 2.0e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.056681
+Verlet buffer LJ max pressure error relative to average: factor 9.17
+ib  -1 281 564 rb 0.281 4x4 fac 0.100 drift 2.9e-10
+Verlet buffer LJ max pressure error relative to average: factor 7.39
+ib  -1 140 281 rb 0.140 4x4 fac 0.105 drift 5.9e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.64
+ib  -1  69 140 rb 0.069 4x4 fac 0.107 drift 1.5e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.62
+ib  -1  34  69 rb 0.034 4x4 fac 0.109 drift 6.1e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.12
+ib  -1  16  34 rb 0.016 4x4 fac 0.110 drift 1.2e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.83
+ib  -1   7  16 rb 0.007 4x4 fac 0.110 drift 1.7e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.68
+ib  -1   3   7 rb 0.003 4x4 fac 0.110 drift 1.9e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.60
+ib  -1   1   3 rb 0.001 4x4 fac 0.110 drift 2.1e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.56
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 2.2e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.059830
+Verlet buffer LJ max pressure error relative to average: factor 7.94
+ib  -1 297 596 rb 0.297 4x4 fac 0.099 drift 2.7e-10
+Verlet buffer LJ max pressure error relative to average: factor 7.04
+ib  -1 148 297 rb 0.148 4x4 fac 0.104 drift 6.1e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.62
+ib  -1  73 148 rb 0.073 4x4 fac 0.107 drift 1.6e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.63
+ib  -1  36  73 rb 0.036 4x4 fac 0.109 drift 6.6e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.13
+ib  -1  17  36 rb 0.017 4x4 fac 0.110 drift 1.3e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.86
+ib  -1   8  17 rb 0.008 4x4 fac 0.110 drift 1.8e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.69
+ib  -1   3   8 rb 0.003 4x4 fac 0.110 drift 2.1e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.61
+ib  -1   1   3 rb 0.001 4x4 fac 0.110 drift 2.3e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.57
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 2.3e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.062979
+Verlet buffer LJ max pressure error relative to average: factor 6.99
+ib  -1 313 627 rb 0.313 4x4 fac 0.099 drift 2.6e-10
+Verlet buffer LJ max pressure error relative to average: factor 6.56
+ib  -1 156 313 rb 0.156 4x4 fac 0.104 drift 6.3e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.50
+ib  -1  77 156 rb 0.077 4x4 fac 0.107 drift 1.7e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.60
+ib  -1  38  77 rb 0.038 4x4 fac 0.109 drift 7.1e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.11
+ib  -1  18  38 rb 0.018 4x4 fac 0.110 drift 1.4e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.84
+ib  -1   8  18 rb 0.008 4x4 fac 0.110 drift 2.0e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.67
+ib  -1   3   8 rb 0.003 4x4 fac 0.110 drift 2.3e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.60
+ib  -1   1   3 rb 0.001 4x4 fac 0.110 drift 2.5e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.57
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 2.6e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.066128
+Verlet buffer LJ max pressure error relative to average: factor 10.24
+ib  -1 328 658 rb 0.328 4x4 fac 0.099 drift 2.6e-10
+Verlet buffer LJ max pressure error relative to average: factor 7.43
+ib  -1 163 328 rb 0.163 4x4 fac 0.104 drift 6.7e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.73
+ib  -1  81 163 rb 0.081 4x4 fac 0.107 drift 1.8e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.70
+ib  -1  40  81 rb 0.040 4x4 fac 0.109 drift 7.6e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.17
+ib  -1  19  40 rb 0.019 4x4 fac 0.110 drift 1.5e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.89
+ib  -1   9  19 rb 0.009 4x4 fac 0.110 drift 2.1e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.74
+ib  -1   4   9 rb 0.004 4x4 fac 0.110 drift 2.4e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.63
+ib  -1   1   4 rb 0.001 4x4 fac 0.110 drift 2.7e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.60
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 2.8e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.069277
+Verlet buffer LJ max pressure error relative to average: factor 11.49
+ib  -1 344 690 rb 0.344 4x4 fac 0.098 drift 2.5e-10
+Verlet buffer LJ max pressure error relative to average: factor 7.93
+ib  -1 171 344 rb 0.171 4x4 fac 0.103 drift 6.8e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.88
+ib  -1  85 171 rb 0.085 4x4 fac 0.107 drift 1.9e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.76
+ib  -1  42  85 rb 0.042 4x4 fac 0.109 drift 8.1e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.21
+ib  -1  20  42 rb 0.020 4x4 fac 0.110 drift 1.6e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.91
+ib  -1   9  20 rb 0.009 4x4 fac 0.110 drift 2.3e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.75
+ib  -1   4   9 rb 0.004 4x4 fac 0.110 drift 2.6e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.65
+ib  -1   1   4 rb 0.001 4x4 fac 0.110 drift 2.9e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.62
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 3.0e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.072426
+Verlet buffer LJ max pressure error relative to average: factor 10.85
+ib  -1 360 721 rb 0.360 4x4 fac 0.098 drift 2.3e-10
+Verlet buffer LJ max pressure error relative to average: factor 8.03
+ib  -1 179 360 rb 0.179 4x4 fac 0.103 drift 6.9e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.95
+ib  -1  89 179 rb 0.089 4x4 fac 0.107 drift 2.0e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.79
+ib  -1  44  89 rb 0.044 4x4 fac 0.108 drift 8.6e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.23
+ib  -1  21  44 rb 0.021 4x4 fac 0.109 drift 1.7e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.94
+ib  -1  10  21 rb 0.010 4x4 fac 0.110 drift 2.4e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.76
+ib  -1   4  10 rb 0.004 4x4 fac 0.110 drift 2.9e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.66
+ib  -1   1   4 rb 0.001 4x4 fac 0.110 drift 3.1e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.62
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 3.2e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.075575
+Verlet buffer LJ max pressure error relative to average: factor 9.66
+ib  -1 375 752 rb 0.375 4x4 fac 0.097 drift 2.2e-10
+Verlet buffer LJ max pressure error relative to average: factor 7.83
+ib  -1 187 375 rb 0.187 4x4 fac 0.103 drift 6.9e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.94
+ib  -1  93 187 rb 0.093 4x4 fac 0.106 drift 2.1e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.79
+ib  -1  46  93 rb 0.046 4x4 fac 0.108 drift 9.1e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.23
+ib  -1  22  46 rb 0.022 4x4 fac 0.109 drift 1.8e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.93
+ib  -1  10  22 rb 0.010 4x4 fac 0.110 drift 2.6e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.75
+ib  -1   4  10 rb 0.004 4x4 fac 0.110 drift 3.1e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.66
+ib  -1   1   4 rb 0.001 4x4 fac 0.110 drift 3.4e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.63
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 3.5e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.078724
+Verlet buffer LJ max pressure error relative to average: factor 8.57
+ib  -1 391 784 rb 0.391 4x4 fac 0.097 drift 2.0e-10
+Verlet buffer LJ max pressure error relative to average: factor 7.46
+ib  -1 195 391 rb 0.195 4x4 fac 0.103 drift 6.9e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.87
+ib  -1  97 195 rb 0.097 4x4 fac 0.106 drift 2.2e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.77
+ib  -1  48  97 rb 0.048 4x4 fac 0.108 drift 9.6e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.22
+ib  -1  23  48 rb 0.023 4x4 fac 0.109 drift 2.0e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.93
+ib  -1  11  23 rb 0.011 4x4 fac 0.110 drift 2.7e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.77
+ib  -1   5  11 rb 0.005 4x4 fac 0.110 drift 3.2e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.68
+ib  -1   2   5 rb 0.002 4x4 fac 0.110 drift 3.5e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.62
+ib  -1   0   2 rb 0.000 4x4 fac 0.110 drift 3.7e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.081872
+Verlet buffer LJ max pressure error relative to average: factor 11.14
+ib  -1 407 815 rb 0.407 4x4 fac 0.097 drift 1.8e-10
+Verlet buffer LJ max pressure error relative to average: factor 8.01
+ib  -1 203 407 rb 0.203 4x4 fac 0.102 drift 6.9e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.99
+ib  -1 101 203 rb 0.101 4x4 fac 0.106 drift 2.3e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.81
+ib  -1  50 101 rb 0.050 4x4 fac 0.108 drift 1.0e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.25
+ib  -1  24  50 rb 0.024 4x4 fac 0.109 drift 2.1e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.94
+ib  -1  11  24 rb 0.011 4x4 fac 0.110 drift 3.0e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.78
+ib  -1   5  11 rb 0.005 4x4 fac 0.110 drift 3.5e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.69
+ib  -1   2   5 rb 0.002 4x4 fac 0.110 drift 3.8e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.63
+ib  -1   0   2 rb 0.000 4x4 fac 0.110 drift 4.0e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.085021
+Verlet buffer LJ max pressure error relative to average: factor 12.30
+ib  -1 422 846 rb 0.422 4x4 fac 0.096 drift 1.7e-10
+Verlet buffer LJ max pressure error relative to average: factor 8.32
+ib  -1 210 422 rb 0.210 4x4 fac 0.102 drift 7.1e-07
+Verlet buffer LJ max pressure error relative to average: factor 6.04
+ib  -1 104 210 rb 0.104 4x4 fac 0.106 drift 2.4e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.81
+ib  -1  51 104 rb 0.051 4x4 fac 0.108 drift 1.1e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.26
+ib  -1  25  51 rb 0.025 4x4 fac 0.109 drift 2.2e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.96
+ib  -1  12  25 rb 0.012 4x4 fac 0.110 drift 3.1e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.78
+ib  -1   5  12 rb 0.005 4x4 fac 0.110 drift 3.7e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.69
+ib  -1   2   5 rb 0.002 4x4 fac 0.110 drift 4.0e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.63
+ib  -1   0   2 rb 0.000 4x4 fac 0.110 drift 4.2e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.088170
+Verlet buffer LJ max pressure error relative to average: factor 12.03
+ib  -1 438 877 rb 0.438 4x4 fac 0.096 drift 1.6e-10
+Verlet buffer LJ max pressure error relative to average: factor 8.41
+ib  -1 218 438 rb 0.218 4x4 fac 0.102 drift 7.1e-07
+Verlet buffer LJ max pressure error relative to average: factor 6.08
+ib  -1 108 218 rb 0.108 4x4 fac 0.106 drift 2.5e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.83
+ib  -1  53 108 rb 0.053 4x4 fac 0.108 drift 1.1e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.27
+ib  -1  26  53 rb 0.026 4x4 fac 0.109 drift 2.3e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.95
+ib  -1  12  26 rb 0.012 4x4 fac 0.110 drift 3.3e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.77
+ib  -1   5  12 rb 0.005 4x4 fac 0.110 drift 4.0e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.69
+ib  -1   2   5 rb 0.002 4x4 fac 0.110 drift 4.3e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.63
+ib  -1   0   2 rb 0.000 4x4 fac 0.110 drift 4.5e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.091319
+Verlet buffer LJ max pressure error relative to average: factor 11.07
+ib  -1 454 909 rb 0.454 4x4 fac 0.095 drift 1.4e-10
+Verlet buffer LJ max pressure error relative to average: factor 8.28
+ib  -1 226 454 rb 0.226 4x4 fac 0.102 drift 7.0e-07
+Verlet buffer LJ max pressure error relative to average: factor 6.06
+ib  -1 112 226 rb 0.112 4x4 fac 0.106 drift 2.5e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.82
+ib  -1  55 112 rb 0.055 4x4 fac 0.108 drift 1.2e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.26
+ib  -1  27  55 rb 0.027 4x4 fac 0.109 drift 2.4e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.96
+ib  -1  13  27 rb 0.013 4x4 fac 0.110 drift 3.5e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.79
+ib  -1   6  13 rb 0.006 4x4 fac 0.110 drift 4.1e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.68
+ib  -1   2   6 rb 0.002 4x4 fac 0.110 drift 4.6e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.63
+ib  -1   0   2 rb 0.000 4x4 fac 0.110 drift 4.8e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.094468
+Verlet buffer LJ max pressure error relative to average: factor 9.98
+ib  -1 469 940 rb 0.469 4x4 fac 0.095 drift 1.3e-10
+Verlet buffer LJ max pressure error relative to average: factor 8.02
+ib  -1 234 469 rb 0.234 4x4 fac 0.101 drift 6.8e-07
+Verlet buffer LJ max pressure error relative to average: factor 6.01
+ib  -1 116 234 rb 0.116 4x4 fac 0.105 drift 2.6e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.80
+ib  -1  57 116 rb 0.057 4x4 fac 0.108 drift 1.3e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.25
+ib  -1  28  57 rb 0.028 4x4 fac 0.109 drift 2.6e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.94
+ib  -1  13  28 rb 0.013 4x4 fac 0.110 drift 3.7e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.77
+ib  -1   6  13 rb 0.006 4x4 fac 0.110 drift 4.4e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.67
+ib  -1   2   6 rb 0.002 4x4 fac 0.110 drift 4.8e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.62
+ib  -1   0   2 rb 0.000 4x4 fac 0.110 drift 5.1e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.097617
+Verlet buffer LJ max pressure error relative to average: factor 11.93
+ib  -1 485 971 rb 0.485 4x4 fac 0.095 drift 1.1e-10
+Verlet buffer LJ max pressure error relative to average: factor 8.36
+ib  -1 242 485 rb 0.242 4x4 fac 0.101 drift 6.7e-07
+Verlet buffer LJ max pressure error relative to average: factor 6.07
+ib  -1 120 242 rb 0.120 4x4 fac 0.105 drift 2.7e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.81
+ib  -1  59 120 rb 0.059 4x4 fac 0.108 drift 1.3e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.26
+ib  -1  29  59 rb 0.029 4x4 fac 0.109 drift 2.7e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.95
+ib  -1  14  29 rb 0.014 4x4 fac 0.110 drift 3.8e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.77
+ib  -1   6  14 rb 0.006 4x4 fac 0.110 drift 4.7e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.67
+ib  -1   2   6 rb 0.002 4x4 fac 0.110 drift 5.1e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.62
+ib  -1   0   2 rb 0.000 4x4 fac 0.110 drift 5.4e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.100766
+Verlet buffer LJ max pressure error relative to average: factor 12.92
+ib  -1 501 1003 rb 0.501 4x4 fac 0.094 drift 9.6e-11
+Verlet buffer LJ max pressure error relative to average: factor 8.55
+ib  -1 250 501 rb 0.250 4x4 fac 0.101 drift 6.5e-07
+Verlet buffer LJ max pressure error relative to average: factor 6.11
+ib  -1 124 250 rb 0.124 4x4 fac 0.105 drift 2.7e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.82
+ib  -1  61 124 rb 0.061 4x4 fac 0.108 drift 1.3e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.26
+ib  -1  30  61 rb 0.030 4x4 fac 0.109 drift 2.8e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.94
+ib  -1  14  30 rb 0.014 4x4 fac 0.110 drift 4.1e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.76
+ib  -1   6  14 rb 0.006 4x4 fac 0.110 drift 4.9e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.67
+ib  -1   2   6 rb 0.002 4x4 fac 0.110 drift 5.4e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.62
+ib  -1   0   2 rb 0.000 4x4 fac 0.110 drift 5.7e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.103915
+Verlet buffer LJ max pressure error relative to average: factor 12.84
+ib  -1 516 1034 rb 0.516 4x4 fac 0.094 drift 8.6e-11
+Verlet buffer LJ max pressure error relative to average: factor 8.59
+ib  -1 257 516 rb 0.257 4x4 fac 0.101 drift 6.5e-07
+Verlet buffer LJ max pressure error relative to average: factor 6.11
+ib  -1 128 257 rb 0.128 4x4 fac 0.105 drift 2.7e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.82
+ib  -1  63 128 rb 0.063 4x4 fac 0.108 drift 1.4e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.25
+ib  -1  31  63 rb 0.031 4x4 fac 0.109 drift 2.9e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.95
+ib  -1  15  31 rb 0.015 4x4 fac 0.110 drift 4.2e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.78
+ib  -1   7  15 rb 0.007 4x4 fac 0.110 drift 5.1e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.68
+ib  -1   3   7 rb 0.003 4x4 fac 0.110 drift 5.6e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.64
+ib  -1   1   3 rb 0.001 4x4 fac 0.110 drift 5.8e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.61
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 6.0e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.107064
+Verlet buffer LJ max pressure error relative to average: factor 12.11
+ib  -1 532 1065 rb 0.532 4x4 fac 0.094 drift 7.3e-11
+Verlet buffer LJ max pressure error relative to average: factor 8.50
+ib  -1 265 532 rb 0.265 4x4 fac 0.100 drift 6.3e-07
+Verlet buffer LJ max pressure error relative to average: factor 6.10
+ib  -1 132 265 rb 0.132 4x4 fac 0.105 drift 2.8e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.80
+ib  -1  65 132 rb 0.065 4x4 fac 0.108 drift 1.4e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.24
+ib  -1  32  65 rb 0.032 4x4 fac 0.109 drift 3.1e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.93
+ib  -1  15  32 rb 0.015 4x4 fac 0.110 drift 4.5e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.76
+ib  -1   7  15 rb 0.007 4x4 fac 0.110 drift 5.4e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.67
+ib  -1   3   7 rb 0.003 4x4 fac 0.110 drift 5.9e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.63
+ib  -1   1   3 rb 0.001 4x4 fac 0.110 drift 6.1e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.60
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 6.3e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.110213
+Verlet buffer LJ max pressure error relative to average: factor 11.15
+ib  -1 548 1097 rb 0.548 4x4 fac 0.093 drift 6.2e-11
+Verlet buffer LJ max pressure error relative to average: factor 8.32
+ib  -1 273 548 rb 0.273 4x4 fac 0.100 drift 6.0e-07
+Verlet buffer LJ max pressure error relative to average: factor 6.05
+ib  -1 136 273 rb 0.136 4x4 fac 0.105 drift 2.8e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.78
+ib  -1  67 136 rb 0.067 4x4 fac 0.107 drift 1.5e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.23
+ib  -1  33  67 rb 0.033 4x4 fac 0.109 drift 3.2e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.93
+ib  -1  16  33 rb 0.016 4x4 fac 0.110 drift 4.6e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.75
+ib  -1   7  16 rb 0.007 4x4 fac 0.110 drift 5.6e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.66
+ib  -1   3   7 rb 0.003 4x4 fac 0.110 drift 6.2e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.62
+ib  -1   1   3 rb 0.001 4x4 fac 0.110 drift 6.4e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.59
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 6.6e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.113362
+Verlet buffer LJ max pressure error relative to average: factor 12.57
+ib  -1 563 1128 rb 0.563 4x4 fac 0.093 drift 5.4e-11
+Verlet buffer LJ max pressure error relative to average: factor 8.50
+ib  -1 281 563 rb 0.281 4x4 fac 0.100 drift 5.8e-07
+Verlet buffer LJ max pressure error relative to average: factor 6.07
+ib  -1 140 281 rb 0.140 4x4 fac 0.105 drift 2.8e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.78
+ib  -1  69 140 rb 0.069 4x4 fac 0.107 drift 1.5e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.23
+ib  -1  34  69 rb 0.034 4x4 fac 0.109 drift 3.3e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.91
+ib  -1  16  34 rb 0.016 4x4 fac 0.110 drift 4.9e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.74
+ib  -1   7  16 rb 0.007 4x4 fac 0.110 drift 5.9e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.65
+ib  -1   3   7 rb 0.003 4x4 fac 0.110 drift 6.5e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.61
+ib  -1   1   3 rb 0.001 4x4 fac 0.110 drift 6.8e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.59
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 6.9e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.116511
+Verlet buffer LJ max pressure error relative to average: factor 13.35
+ib  -1 579 1159 rb 0.579 4x4 fac 0.093 drift 4.5e-11
+Verlet buffer LJ max pressure error relative to average: factor 8.61
+ib  -1 289 579 rb 0.289 4x4 fac 0.100 drift 5.5e-07
+Verlet buffer LJ max pressure error relative to average: factor 6.08
+ib  -1 144 289 rb 0.144 4x4 fac 0.104 drift 2.8e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.77
+ib  -1  71 144 rb 0.071 4x4 fac 0.107 drift 1.6e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.22
+ib  -1  35  71 rb 0.035 4x4 fac 0.109 drift 3.4e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.92
+ib  -1  17  35 rb 0.017 4x4 fac 0.110 drift 5.0e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.75
+ib  -1   8  17 rb 0.008 4x4 fac 0.110 drift 6.1e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.64
+ib  -1   3   8 rb 0.003 4x4 fac 0.110 drift 6.8e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.60
+ib  -1   1   3 rb 0.001 4x4 fac 0.110 drift 7.1e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.58
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 7.2e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.119660
+Verlet buffer LJ max pressure error relative to average: factor 13.36
+ib  -1 595 1191 rb 0.595 4x4 fac 0.093 drift 3.7e-11
+Verlet buffer LJ max pressure error relative to average: factor 8.63
+ib  -1 297 595 rb 0.297 4x4 fac 0.099 drift 5.3e-07
+Verlet buffer LJ max pressure error relative to average: factor 6.07
+ib  -1 148 297 rb 0.148 4x4 fac 0.104 drift 2.8e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.76
+ib  -1  73 148 rb 0.073 4x4 fac 0.107 drift 1.6e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.21
+ib  -1  36  73 rb 0.036 4x4 fac 0.109 drift 3.5e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.90
+ib  -1  17  36 rb 0.017 4x4 fac 0.110 drift 5.3e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.73
+ib  -1   8  17 rb 0.008 4x4 fac 0.110 drift 6.4e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.64
+ib  -1   3   8 rb 0.003 4x4 fac 0.110 drift 7.1e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.59
+ib  -1   1   3 rb 0.001 4x4 fac 0.110 drift 7.4e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.57
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 7.5e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.122809
+Verlet buffer LJ max pressure error relative to average: factor 12.84
+ib  -1 610 1222 rb 0.610 4x4 fac 0.092 drift 3.1e-11
+Verlet buffer LJ max pressure error relative to average: factor 8.55
+ib  -1 304 610 rb 0.304 4x4 fac 0.099 drift 5.1e-07
+Verlet buffer LJ max pressure error relative to average: factor 6.03
+ib  -1 151 304 rb 0.151 4x4 fac 0.104 drift 2.9e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.75
+ib  -1  75 151 rb 0.075 4x4 fac 0.107 drift 1.6e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.20
+ib  -1  37  75 rb 0.037 4x4 fac 0.109 drift 3.7e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.90
+ib  -1  18  37 rb 0.018 4x4 fac 0.110 drift 5.4e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.72
+ib  -1   8  18 rb 0.008 4x4 fac 0.110 drift 6.7e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.62
+ib  -1   3   8 rb 0.003 4x4 fac 0.110 drift 7.4e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.58
+ib  -1   1   3 rb 0.001 4x4 fac 0.110 drift 7.7e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.56
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 7.9e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.125958
+Verlet buffer LJ max pressure error relative to average: factor 12.03
+ib  -1 626 1253 rb 0.626 4x4 fac 0.092 drift 2.6e-11
+Verlet buffer LJ max pressure error relative to average: factor 8.41
+ib  -1 312 626 rb 0.312 4x4 fac 0.099 drift 4.9e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.99
+ib  -1 155 312 rb 0.155 4x4 fac 0.104 drift 2.9e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.72
+ib  -1  77 155 rb 0.077 4x4 fac 0.107 drift 1.7e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.18
+ib  -1  38  77 rb 0.038 4x4 fac 0.109 drift 3.8e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.88
+ib  -1  18  38 rb 0.018 4x4 fac 0.110 drift 5.7e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.71
+ib  -1   8  18 rb 0.008 4x4 fac 0.110 drift 7.0e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.61
+ib  -1   3   8 rb 0.003 4x4 fac 0.110 drift 7.7e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.57
+ib  -1   1   3 rb 0.001 4x4 fac 0.110 drift 8.0e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.55
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 8.2e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.129107
+Verlet buffer LJ max pressure error relative to average: factor 13.09
+ib  -1 642 1285 rb 0.642 4x4 fac 0.092 drift 2.0e-11
+Verlet buffer LJ max pressure error relative to average: factor 8.50
+ib  -1 320 642 rb 0.320 4x4 fac 0.099 drift 4.6e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.99
+ib  -1 159 320 rb 0.159 4x4 fac 0.104 drift 2.9e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.71
+ib  -1  79 159 rb 0.079 4x4 fac 0.107 drift 1.7e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.18
+ib  -1  39  79 rb 0.039 4x4 fac 0.109 drift 3.9e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.88
+ib  -1  19  39 rb 0.019 4x4 fac 0.110 drift 5.8e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.71
+ib  -1   9  19 rb 0.009 4x4 fac 0.110 drift 7.1e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.62
+ib  -1   4   9 rb 0.004 4x4 fac 0.110 drift 7.9e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.56
+ib  -1   1   4 rb 0.001 4x4 fac 0.110 drift 8.4e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.54
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 8.5e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.132256
+Verlet buffer LJ max pressure error relative to average: factor 13.63
+ib  -1 657 1316 rb 0.657 4x4 fac 0.091 drift 1.7e-11
+Verlet buffer LJ max pressure error relative to average: factor 8.54
+ib  -1 328 657 rb 0.328 4x4 fac 0.099 drift 4.3e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.97
+ib  -1 163 328 rb 0.163 4x4 fac 0.104 drift 2.9e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.70
+ib  -1  81 163 rb 0.081 4x4 fac 0.107 drift 1.7e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.17
+ib  -1  40  81 rb 0.040 4x4 fac 0.109 drift 4.0e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.86
+ib  -1  19  40 rb 0.019 4x4 fac 0.110 drift 6.1e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.70
+ib  -1   9  19 rb 0.009 4x4 fac 0.110 drift 7.4e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.61
+ib  -1   4   9 rb 0.004 4x4 fac 0.110 drift 8.2e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.55
+ib  -1   1   4 rb 0.001 4x4 fac 0.110 drift 8.7e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.54
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 8.9e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.135404
+Verlet buffer LJ max pressure error relative to average: factor 13.66
+ib  -1 673 1347 rb 0.673 4x4 fac 0.091 drift 1.3e-11
+Verlet buffer LJ max pressure error relative to average: factor 8.53
+ib  -1 336 673 rb 0.336 4x4 fac 0.098 drift 4.0e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.96
+ib  -1 167 336 rb 0.167 4x4 fac 0.104 drift 2.8e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.68
+ib  -1  83 167 rb 0.083 4x4 fac 0.107 drift 1.8e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.15
+ib  -1  41  83 rb 0.041 4x4 fac 0.109 drift 4.1e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.86
+ib  -1  20  41 rb 0.020 4x4 fac 0.110 drift 6.2e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.69
+ib  -1   9  20 rb 0.009 4x4 fac 0.110 drift 7.7e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.60
+ib  -1   4   9 rb 0.004 4x4 fac 0.110 drift 8.5e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.54
+ib  -1   1   4 rb 0.001 4x4 fac 0.110 drift 9.0e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.53
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 9.2e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.138553
+Verlet buffer LJ max pressure error relative to average: factor 13.29
+ib  -1 689 1379 rb 0.689 4x4 fac 0.091 drift 1.1e-11
+Verlet buffer LJ max pressure error relative to average: factor 8.47
+ib  -1 344 689 rb 0.344 4x4 fac 0.098 drift 3.7e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.93
+ib  -1 171 344 rb 0.171 4x4 fac 0.103 drift 2.8e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.67
+ib  -1  85 171 rb 0.085 4x4 fac 0.107 drift 1.8e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.14
+ib  -1  42  85 rb 0.042 4x4 fac 0.109 drift 4.2e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.84
+ib  -1  20  42 rb 0.020 4x4 fac 0.110 drift 6.5e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.67
+ib  -1   9  20 rb 0.009 4x4 fac 0.110 drift 8.0e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.59
+ib  -1   4   9 rb 0.004 4x4 fac 0.110 drift 8.9e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.53
+ib  -1   1   4 rb 0.001 4x4 fac 0.110 drift 9.4e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.52
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 9.6e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.141702
+Verlet buffer LJ max pressure error relative to average: factor 12.64
+ib  -1 704 1410 rb 0.704 4x4 fac 0.091 drift 8.5e-12
+Verlet buffer LJ max pressure error relative to average: factor 8.35
+ib  -1 351 704 rb 0.351 4x4 fac 0.098 drift 3.6e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.89
+ib  -1 175 351 rb 0.175 4x4 fac 0.103 drift 2.8e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.64
+ib  -1  87 175 rb 0.087 4x4 fac 0.107 drift 1.8e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.13
+ib  -1  43  87 rb 0.043 4x4 fac 0.108 drift 4.3e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.84
+ib  -1  21  43 rb 0.021 4x4 fac 0.109 drift 6.6e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.67
+ib  -1  10  21 rb 0.010 4x4 fac 0.110 drift 8.2e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.58
+ib  -1   4  10 rb 0.004 4x4 fac 0.110 drift 9.2e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.52
+ib  -1   1   4 rb 0.001 4x4 fac 0.110 drift 9.7e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.51
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 9.9e-04
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.144851
+Verlet buffer LJ max pressure error relative to average: factor 13.36
+ib  -1 720 1441 rb 0.720 4x4 fac 0.090 drift 6.6e-12
+Verlet buffer LJ max pressure error relative to average: factor 8.37
+ib  -1 359 720 rb 0.359 4x4 fac 0.098 drift 3.3e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.87
+ib  -1 179 359 rb 0.179 4x4 fac 0.103 drift 2.7e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.63
+ib  -1  89 179 rb 0.089 4x4 fac 0.107 drift 1.8e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.12
+ib  -1  44  89 rb 0.044 4x4 fac 0.108 drift 4.4e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.82
+ib  -1  21  44 rb 0.021 4x4 fac 0.109 drift 6.9e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.66
+ib  -1  10  21 rb 0.010 4x4 fac 0.110 drift 8.5e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.57
+ib  -1   4  10 rb 0.004 4x4 fac 0.110 drift 9.5e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.52
+ib  -1   1   4 rb 0.001 4x4 fac 0.110 drift 1.0e-03
+Verlet buffer LJ max pressure error relative to average: factor 3.50
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 1.0e-03
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.148000
+Verlet buffer LJ max pressure error relative to average: factor 13.67
+ib  -1 736 1473 rb 0.736 4x4 fac 0.090 drift 5.1e-12
+Verlet buffer LJ max pressure error relative to average: factor 8.37
+ib  -1 367 736 rb 0.367 4x4 fac 0.098 drift 3.0e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.85
+ib  -1 183 367 rb 0.183 4x4 fac 0.103 drift 2.7e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.61
+ib  -1  91 183 rb 0.091 4x4 fac 0.106 drift 1.8e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.11
+ib  -1  45  91 rb 0.045 4x4 fac 0.108 drift 4.5e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.82
+ib  -1  22  45 rb 0.022 4x4 fac 0.109 drift 7.0e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.65
+ib  -1  10  22 rb 0.010 4x4 fac 0.110 drift 8.8e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.56
+ib  -1   4  10 rb 0.004 4x4 fac 0.110 drift 9.8e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.51
+ib  -1   1   4 rb 0.001 4x4 fac 0.110 drift 1.0e-03
+Verlet buffer LJ max pressure error relative to average: factor 3.49
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 1.1e-03
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.151149
+Verlet buffer LJ max pressure error relative to average: factor 13.70
+ib  -1 751 1504 rb 0.751 4x4 fac 0.090 drift 4.0e-12
+Verlet buffer LJ max pressure error relative to average: factor 8.34
+ib  -1 375 751 rb 0.375 4x4 fac 0.097 drift 2.8e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.83
+ib  -1 187 375 rb 0.187 4x4 fac 0.103 drift 2.6e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.60
+ib  -1  93 187 rb 0.093 4x4 fac 0.106 drift 1.9e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.10
+ib  -1  46  93 rb 0.046 4x4 fac 0.108 drift 4.6e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.81
+ib  -1  22  46 rb 0.022 4x4 fac 0.109 drift 7.3e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.64
+ib  -1  10  22 rb 0.010 4x4 fac 0.110 drift 9.1e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.55
+ib  -1   4  10 rb 0.004 4x4 fac 0.110 drift 1.0e-03
+Verlet buffer LJ max pressure error relative to average: factor 3.50
+ib  -1   1   4 rb 0.001 4x4 fac 0.110 drift 1.1e-03
+Verlet buffer LJ max pressure error relative to average: factor 3.48
+ib  -1   0   1 rb 0.000 4x4 fac 0.110 drift 1.1e-03
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.154298
+Verlet buffer LJ max pressure error relative to average: factor 13.44
+ib  -1 767 1535 rb 0.767 4x4 fac 0.090 drift 3.0e-12
+Verlet buffer LJ max pressure error relative to average: factor 8.28
+ib  -1 383 767 rb 0.383 4x4 fac 0.097 drift 2.6e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.79
+ib  -1 191 383 rb 0.191 4x4 fac 0.103 drift 2.6e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.58
+ib  -1  95 191 rb 0.095 4x4 fac 0.106 drift 1.9e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.08
+ib  -1  47  95 rb 0.047 4x4 fac 0.108 drift 4.7e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.80
+ib  -1  23  47 rb 0.023 4x4 fac 0.109 drift 7.4e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.64
+ib  -1  11  23 rb 0.011 4x4 fac 0.110 drift 9.2e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.55
+ib  -1   5  11 rb 0.005 4x4 fac 0.110 drift 1.0e-03
+Verlet buffer LJ max pressure error relative to average: factor 3.50
+ib  -1   2   5 rb 0.002 4x4 fac 0.110 drift 1.1e-03
+Verlet buffer LJ max pressure error relative to average: factor 3.47
+ib  -1   0   2 rb 0.000 4x4 fac 0.110 drift 1.1e-03
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.157447
+Verlet buffer LJ max pressure error relative to average: factor 12.97
+ib  -1 783 1567 rb 0.783 4x4 fac 0.089 drift 2.2e-12
+Verlet buffer LJ max pressure error relative to average: factor 8.19
+ib  -1 391 783 rb 0.391 4x4 fac 0.097 drift 2.3e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.76
+ib  -1 195 391 rb 0.195 4x4 fac 0.103 drift 2.5e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.56
+ib  -1  97 195 rb 0.097 4x4 fac 0.106 drift 1.9e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.07
+ib  -1  48  97 rb 0.048 4x4 fac 0.108 drift 4.8e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.79
+ib  -1  23  48 rb 0.023 4x4 fac 0.109 drift 7.6e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.63
+ib  -1  11  23 rb 0.011 4x4 fac 0.110 drift 9.5e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.54
+ib  -1   5  11 rb 0.005 4x4 fac 0.110 drift 1.1e-03
+Verlet buffer LJ max pressure error relative to average: factor 3.49
+ib  -1   2   5 rb 0.002 4x4 fac 0.110 drift 1.1e-03
+Verlet buffer LJ max pressure error relative to average: factor 3.46
+ib  -1   0   2 rb 0.000 4x4 fac 0.110 drift 1.2e-03
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.160596
+Verlet buffer LJ max pressure error relative to average: factor 13.41
+ib  -1 798 1598 rb 0.798 4x4 fac 0.089 drift 1.7e-12
+Verlet buffer LJ max pressure error relative to average: factor 8.16
+ib  -1 398 798 rb 0.398 4x4 fac 0.097 drift 2.2e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.72
+ib  -1 198 398 rb 0.198 4x4 fac 0.103 drift 2.5e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.53
+ib  -1  98 198 rb 0.098 4x4 fac 0.106 drift 1.9e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.05
+ib  -1  48  98 rb 0.048 4x4 fac 0.108 drift 5.0e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.77
+ib  -1  23  48 rb 0.023 4x4 fac 0.109 drift 7.9e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.61
+ib  -1  11  23 rb 0.011 4x4 fac 0.110 drift 9.8e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.53
+ib  -1   5  11 rb 0.005 4x4 fac 0.110 drift 1.1e-03
+Verlet buffer LJ max pressure error relative to average: factor 3.49
+ib  -1   2   5 rb 0.002 4x4 fac 0.110 drift 1.2e-03
+Verlet buffer LJ max pressure error relative to average: factor 3.45
+ib  -1   0   2 rb 0.000 4x4 fac 0.110 drift 1.2e-03
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.163745
+Verlet buffer LJ max pressure error relative to average: factor 13.66
+ib  -1 814 1629 rb 0.814 4x4 fac 0.089 drift 1.3e-12
+Verlet buffer LJ max pressure error relative to average: factor 8.14
+ib  -1 406 814 rb 0.406 4x4 fac 0.097 drift 2.0e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.69
+ib  -1 202 406 rb 0.202 4x4 fac 0.102 drift 2.5e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.52
+ib  -1 100 202 rb 0.100 4x4 fac 0.106 drift 1.9e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.04
+ib  -1  49 100 rb 0.049 4x4 fac 0.108 drift 5.1e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.77
+ib  -1  24  49 rb 0.024 4x4 fac 0.109 drift 8.0e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.60
+ib  -1  11  24 rb 0.011 4x4 fac 0.110 drift 1.0e-03
+Verlet buffer LJ max pressure error relative to average: factor 3.52
+ib  -1   5  11 rb 0.005 4x4 fac 0.110 drift 1.1e-03
+Verlet buffer LJ max pressure error relative to average: factor 3.48
+ib  -1   2   5 rb 0.002 4x4 fac 0.110 drift 1.2e-03
+Verlet buffer LJ max pressure error relative to average: factor 3.45
+ib  -1   0   2 rb 0.000 4x4 fac 0.110 drift 1.2e-03
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.166894
+Verlet buffer LJ max pressure error relative to average: factor 13.63
+ib  -1 829 1660 rb 0.829 4x4 fac 0.089 drift 9.5e-13
+Verlet buffer LJ max pressure error relative to average: factor 8.09
+ib  -1 414 829 rb 0.414 4x4 fac 0.096 drift 1.8e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.67
+ib  -1 206 414 rb 0.206 4x4 fac 0.102 drift 2.4e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.50
+ib  -1 102 206 rb 0.102 4x4 fac 0.106 drift 1.9e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.03
+ib  -1  50 102 rb 0.050 4x4 fac 0.108 drift 5.1e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.76
+ib  -1  24  50 rb 0.024 4x4 fac 0.109 drift 8.3e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.59
+ib  -1  11  24 rb 0.011 4x4 fac 0.110 drift 1.0e-03
+Verlet buffer LJ max pressure error relative to average: factor 3.51
+ib  -1   5  11 rb 0.005 4x4 fac 0.110 drift 1.2e-03
+Verlet buffer LJ max pressure error relative to average: factor 3.47
+ib  -1   2   5 rb 0.002 4x4 fac 0.110 drift 1.2e-03
+Verlet buffer LJ max pressure error relative to average: factor 3.44
+ib  -1   0   2 rb 0.000 4x4 fac 0.110 drift 1.3e-03
+Verlet buffer LJ max pressure error relative to average: factor 3.45
+ib   0   1   2 rb 0.001 4x4 fac 0.110 drift 1.3e-03
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.154298
+Verlet buffer LJ max pressure error relative to average: factor 13.44
+ib  -1 767 1535 rb 0.767 4x4 fac 0.090 drift 3.0e-12
+Verlet buffer LJ max pressure error relative to average: factor 8.28
+ib  -1 383 767 rb 0.383 4x4 fac 0.097 drift 2.6e-07
+Verlet buffer LJ max pressure error relative to average: factor 5.79
+ib  -1 191 383 rb 0.191 4x4 fac 0.103 drift 2.6e-05
+Verlet buffer LJ max pressure error relative to average: factor 4.58
+ib  -1  95 191 rb 0.095 4x4 fac 0.106 drift 1.9e-04
+Verlet buffer LJ max pressure error relative to average: factor 4.08
+ib  -1  47  95 rb 0.047 4x4 fac 0.108 drift 4.7e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.80
+ib  -1  23  47 rb 0.023 4x4 fac 0.109 drift 7.4e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.64
+ib  -1  11  23 rb 0.011 4x4 fac 0.110 drift 9.2e-04
+Verlet buffer LJ max pressure error relative to average: factor 3.55
+ib  -1   5  11 rb 0.005 4x4 fac 0.110 drift 1.0e-03
+Verlet buffer LJ max pressure error relative to average: factor 3.50
+ib  -1   2   5 rb 0.002 4x4 fac 0.110 drift 1.1e-03
+Verlet buffer LJ max pressure error relative to average: factor 3.47
+ib  -1   0   2 rb 0.000 4x4 fac 0.110 drift 1.1e-03
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.311745
+Verlet buffer LJ max pressure error relative to average: factor 20.23
+ib  -1 1550 3101 rb 1.550 1x1 fac 1.000 drift 1.2e-19
+Verlet buffer LJ max pressure error relative to average: factor 9.46
+ib  -1 774 1550 rb 0.774 1x1 fac 1.000 drift 7.5e-09
+Verlet buffer LJ max pressure error relative to average: factor 6.62
+ib  -1 386 774 rb 0.386 1x1 fac 1.000 drift 5.1e-05
+Verlet buffer LJ max pressure error relative to average: factor 5.32
+ib  -1 192 386 rb 0.192 1x1 fac 1.000 drift 1.9e-03
+Verlet buffer LJ max pressure error relative to average: factor 4.51
+ib  -1  95 192 rb 0.095 1x1 fac 1.000 drift 9.2e-03
+Verlet buffer LJ max pressure error relative to average: factor 4.94
+ib  95 143 192 rb 0.143 1x1 fac 1.000 drift 4.3e-03
+Verlet buffer LJ max pressure error relative to average: factor 5.14
+ib 143 167 192 rb 0.167 1x1 fac 1.000 drift 2.9e-03
+Verlet buffer LJ max pressure error relative to average: factor 5.23
+ib 167 179 192 rb 0.179 1x1 fac 1.000 drift 2.4e-03
+Verlet buffer LJ max pressure error relative to average: factor 5.27
+ib 179 185 192 rb 0.185 1x1 fac 1.000 drift 2.1e-03
+Verlet buffer LJ max pressure error relative to average: factor 5.30
+ib 185 188 192 rb 0.188 1x1 fac 1.000 drift 2.0e-03
+Verlet buffer LJ max pressure error relative to average: factor 5.31
+ib 188 190 192 rb 0.190 1x1 fac 1.000 drift 2.0e-03
+Verlet buffer LJ max pressure error relative to average: factor 5.30
+ib 188 189 190 rb 0.189 1x1 fac 1.000 drift 2.0e-03
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Verlet buffer LJ max pressure error relative to average: factor 5.30
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Using an effective atom density of: 20.244026 atoms/nm^3
+particle distance assuming HCP packing: 0.411850 nm
+energy drift atom types: 69
+Derivatives of non-bonded potentials at the cut-off:
+LJ disp. -V'  0.00e+00 V''  0.00e+00 -V''' -1.74e+03
+LJ rep.  -V'  0.00e+00 V''  0.00e+00 -V'''  3.37e+04
+Electro. -V'  2.07e-02 V''  3.55e-01
+sqrt(kT_fac) 0.154298
+Verlet buffer LJ max pressure error relative to average: factor 13.44
+ib  -1 767 1535 rb 0.767 1x1 fac 1.000 drift 3.4e-11
+Verlet buffer LJ max pressure error relative to average: factor 8.28
+ib  -1 383 767 rb 0.383 1x1 fac 1.000 drift 2.6e-06
+Verlet buffer LJ max pressure error relative to average: factor 5.79
+ib  -1 191 383 rb 0.191 1x1 fac 1.000 drift 2.5e-04
+Verlet buffer LJ max pressure error relative to average: factor 7.13
+ib 191 287 383 rb 0.287 1x1 fac 1.000 drift 2.8e-05
+Verlet buffer LJ max pressure error relative to average: factor 6.47
+ib 191 239 287 rb 0.239 1x1 fac 1.000 drift 8.7e-05
+Verlet buffer LJ max pressure error relative to average: factor 6.81
+ib 239 263 287 rb 0.263 1x1 fac 1.000 drift 5.0e-05
+Verlet buffer LJ max pressure error relative to average: factor 6.64
+ib 239 251 263 rb 0.251 1x1 fac 1.000 drift 6.6e-05
+Verlet buffer LJ max pressure error relative to average: factor 6.72
+ib 251 257 263 rb 0.257 1x1 fac 1.000 drift 5.7e-05
+Verlet buffer LJ max pressure error relative to average: factor 6.68
+ib 251 254 257 rb 0.254 1x1 fac 1.000 drift 6.1e-05
+Verlet buffer LJ max pressure error relative to average: factor 6.70
+ib 254 255 257 rb 0.255 1x1 fac 1.000 drift 6.0e-05
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Verlet buffer LJ max pressure error relative to average: factor 4.59
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Verlet buffer LJ max pressure error relative to average: factor 3.47
+There are 17 atom types in the system
+Combination rules: geometric false Lorentz-Berthelot true
+graph partNr[] numAtomsChanged=116, bMultiPart=true
+graph partNr[] numAtomsChanged=0, bMultiPart=true
+The total size of the atom to interaction index is 4469 integers
+Verlet type resolutions: 1/mass: 0.007066 charge 0.002705 constraint length 0.001075
+Creating PME data structures.
+PME slab boundaries:    0  59
+PME slab boundaries:    0  59
+pmegrid thread local division: 5 x 2 x 1
+pmegrid 59 59 59 max thread pmegrid 15 31 59
+pmegrid thread grid communication range in z: 1
+pmegrid thread grid communication range in y: 1
+pmegrid thread grid communication range in x: 1
+FFT5D: Using 1x1 rank grid, rank 0,0
+FFT5D: N: 56, M: 56, K: 56, P: 1x1, real2complex: 1, backward: 0, order yz: 1, debug 0
+Running on 10 threads
+FFT5D: Plan s 0 rC 56 M 56 pK 56 C 29 lsize 90944
+FFT5D: Plan s 1 rC 56 M 29 pK 56 C 56 lsize 90944
+FFT5D: Plan s 2 rC 56 M 29 pK 56 C 56 lsize 90944
+FFT5D: Using 1x1 rank grid, rank 0,0
+FFT5D: N: 56, M: 56, K: 56, P: 1x1, real2complex: 1, backward: 1, order yz: 0, debug 0
+Running on 10 threads
+FFT5D: Plan s 0 rC 56 M 29 pK 56 C 56 lsize 90944
+FFT5D: Plan s 1 rC 56 M 29 pK 56 C 56 lsize 90944
+FFT5D: Plan s 2 rC 56 M 56 pK 56 C 29 lsize 90944
+For PME atom communication in dimind 1: nslab 1 rank 0
+Installing signal handler for SIGTERM
+Installing signal handler for SIGINT
+Installing signal handler for SIGUSR1
+LINCS: using 10 threads, tasks are independent
+PME slab communication range for dim 0 is 1
+PME slab communication range for dim 0 is 1
+cell_x[0] 0.000000 - 6.498502 skew_fac 1.000000
+cell_x[1] 0.000000 - 6.498502 skew_fac 1.000000
+cell_x[2] 0.000000 - 6.498502 skew_fac 1.000000
+Set grid boundaries dim 0: 0.000000 6.498502
+Set grid boundaries dim 1: 0.000000 6.498502
+Set grid boundaries dim 2: 0.000000 6.498502
+zone 0     0.000 -  6.499   0.000 -  6.499   0.000 -  6.499
+zone 0 bb  0.000 -  6.499   0.000 -  6.499   0.000 -  6.499
+num atoms 119, atom_density =   0.4
+ns grid effective density ratio 7.572558
+ns na_sc 4 na_c 4 super-cells: 32 x 7 y 7 z 0.7 maxz 8
+cell_offset 0 sorting columns 29 - 34
+cell_offset 0 sorting columns 4 - 9
+cell_offset 0 sorting columns 9 - 14
+cell_offset 0 sorting columns 19 - 24
+cell_offset 0 sorting columns 34 - 39
+cell_offset 0 sorting columns 39 - 44
+cell_offset 0 sorting columns 24 - 29
+cell_offset 0 sorting columns 44 - 49
+cell_offset 0 sorting columns 14 - 19
+cell_offset 0 sorting columns 0 - 4
+ns bb: grid 0.93 0.93 0.85 abs 0.31 0.29 0.10 rel 0.33 0.31 0.12
+Step 0, sorting the 119 home charge groups
+The new home atom count, including filler particles, is 119
+Making local topology
+Two-body bonded cut-off distance is 1.51142
+dim 0 cellmin 6.498502 bonded rcheck[0] = 0, checkDistanceTwoBody = false
+dim 1 cellmin 6.498502 bonded rcheck[1] = 0, checkDistanceTwoBody = false
+dim 2 cellmin 6.498502 bonded rcheck[2] = 0, checkDistanceTwoBody = false
+We have 1341 exclusions
+Division of bondeds over threads:
+           BONDS    5    6    6    5    7    7    3   10    7    2
+          ANGLES   23   24   24   25   21   22   18   17   20   13
+           PDIHS   30   23   29   25   28   25   29   29   30   34
+          PIDIHS    0    1    0    1    2    5    3    6    2    1
+            LJ14   27   36   26   31   28   26   32   20   26   34
+Number of 32 atom blocks to reduce: 4
+Reduction density 8.61 for touched blocks only 8.00
+Building the LINCS connectivity
+LINCS task 0 constraints 0 - 7
+LINCS task 1 constraints 8 - 15
+LINCS task 2 constraints 16 - 22
+LINCS task 3 constraints 24 - 32
+LINCS task 4 constraints 32 - 38
+LINCS task 5 constraints 40 - 48
+LINCS task 6 constraints 48 - 54
+LINCS task 7 constraints 56 - 62
+LINCS task 8 constraints 64 - 70
+LINCS task 9 constraints 72 - 72
+Number of constraints is 60, padded 72, couplings 52
+The 72 constraints participate in 0 triangles
+There are 52 constraint couplings, of which 0 in triangles
+vcm: start=0, homenr=119, end=119
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          0.000001    0.000003    108    109
+        After LINCS          0.000001    0.000003    108    109
+
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          0.000006    0.000019    114    117
+        After LINCS          0.000001    0.000003    114    116
+
+PME slab communication range for dim 0 is 1
+cell_x[0] 0.000000 - 6.498502 skew_fac 1.000000
+cell_x[1] 0.000000 - 6.498502 skew_fac 1.000000
+cell_x[2] 0.000000 - 6.498502 skew_fac 1.000000
+Finished repartitioning, new atoms count without fillers: 119
+Set grid boundaries dim 0: 0.000000 6.498502
+Set grid boundaries dim 1: 0.000000 6.498502
+Set grid boundaries dim 2: 0.000000 6.498502
+zone 0     0.000 -  6.499   0.000 -  6.499   0.000 -  6.499
+zone 0 bb  0.000 -  6.499   0.000 -  6.499   0.000 -  6.499
+num atoms 119, atom_density =   0.4
+ns grid effective density ratio 7.572558
+ns na_sc 4 na_c 4 super-cells: 32 x 7 y 7 z 0.7 maxz 8
+cell_offset 0 sorting columns 29 - 34
+cell_offset 0 sorting columns 19 - 24
+cell_offset 0 sorting columns 44 - 49
+cell_offset 0 sorting columns 39 - 44
+cell_offset 0 sorting columns 4 - 9
+cell_offset 0 sorting columns 9 - 14
+cell_offset 0 sorting columns 14 - 19
+cell_offset 0 sorting columns 34 - 39
+cell_offset 0 sorting columns 24 - 29
+cell_offset 0 sorting columns 0 - 4
+ns bb: grid 0.93 0.93 0.85 abs 0.31 0.29 0.10 rel 0.33 0.31 0.12
+Step 0, sorting the 119 home charge groups
+The new home atom count, including filler particles, is 119
+Making local topology
+Two-body bonded cut-off distance is 1.51142
+dim 0 cellmin 6.498502 bonded rcheck[0] = 0, checkDistanceTwoBody = false
+dim 1 cellmin 6.498502 bonded rcheck[1] = 0, checkDistanceTwoBody = false
+dim 2 cellmin 6.498502 bonded rcheck[2] = 0, checkDistanceTwoBody = false
+We have 1341 exclusions
+Division of bondeds over threads:
+           BONDS    5    6    6    5    7    7    3   10    7    2
+          ANGLES   23   24   24   25   21   22   18   17   20   13
+           PDIHS   30   23   29   25   28   25   29   29   30   34
+          PIDIHS    0    1    0    1    2    5    3    6    2    1
+            LJ14   27   36   26   31   28   26   32   20   26   34
+Number of 32 atom blocks to reduce: 4
+Reduction density 8.61 for touched blocks only 8.00
+Building the LINCS connectivity
+LINCS task 0 constraints 0 - 7
+LINCS task 1 constraints 8 - 15
+LINCS task 2 constraints 16 - 22
+LINCS task 3 constraints 24 - 32
+LINCS task 4 constraints 32 - 38
+LINCS task 5 constraints 40 - 48
+LINCS task 6 constraints 48 - 54
+LINCS task 7 constraints 56 - 62
+LINCS task 8 constraints 64 - 70
+LINCS task 9 constraints 72 - 72
+Number of constraints is 60, padded 72, couplings 52
+The 72 constraints participate in 0 triangles
+There are 52 constraint couplings, of which 0 in triangles
+ns making 10 nblists
+ns search grid zone 0 vs 0
+nbl bounding box only distance 0.646552
+nbl bounding box only distance 0.646552
+nbl nc_i 32 col.av. 0.7 ci_block 3
+nbl bounding box only distance 0.646552
+nbl nc_i 32 col.av. 0.7 ci_block 3
+nbl nc_i 32 col.av. 0.7 ci_block 3
+nbl bounding box only distance 0.646552
+nbl nc_i 32 col.av. 0.7 ci_block 3
+nbl bounding box only distance 0.646552
+nbl nc_i 32 col.av. 0.7 ci_block 3
+nbl bounding box only distance 0.646552
+nbl nc_i 32 col.av. 0.7 ci_block 3
+number of distance checks 20
+nbl nci 3 ncj 21
+nbl na_cj 4 rl 1.303 ncp 21 per cell 0.7 atoms 2.6 ratio 1.21
+nbl average j cell list length 1.8
+nbl cell pairs, total: 21 excl: 16 76.2%
+nbl shift 22 ncj  21
+nbl bounding box only distance 0.646552
+nbl nc_i 32 col.av. 0.7 ci_block 3
+nbl bounding box only distance 0.646552
+nbl nc_i 32 col.av. 0.7 ci_block 3
+number of distance checks 378
+nbl nci 5 ncj 34
+nbl na_cj 4 rl 1.303 ncp 34 per cell 1.1 atoms 4.2 ratio 1.97
+nbl average j cell list length 1.7
+nbl cell pairs, total: 34 excl: 13 38.2%
+nbl shift 22 ncj  34
+number of distance checks 116
+nbl nci 3 ncj 57
+nbl na_cj 4 rl 1.303 ncp 57 per cell 1.8 atoms 7.1 ratio 3.30
+nbl average j cell list length 4.8
+nbl cell pairs, total: 57 excl: 16 28.1%
+nbl shift 22 ncj  57
+number of distance checks 226
+nbl nci 5 ncj 48
+nbl na_cj 4 rl 1.303 ncp 48 per cell 1.5 atoms 6.0 ratio 2.78
+nbl average j cell list length 2.4
+nbl cell pairs, total: 48 excl: 11 22.9%
+nbl shift 17 ncj  18
+nbl shift 22 ncj  30
+number of distance checks 214
+nbl nci 3 ncj 48
+nbl na_cj 4 rl 1.303 ncp 48 per cell 1.5 atoms 6.0 ratio 2.78
+nbl average j cell list length 4.0
+nbl cell pairs, total: 48 excl: 14 29.2%
+nbl shift 22 ncj  48
+nbl bounding box only distance 0.646552
+nbl nc_i 32 col.av. 0.7 ci_block 3
+number of distance checks 36
+nbl nci 3 ncj 12
+nbl na_cj 4 rl 1.303 ncp 12 per cell 0.4 atoms 1.5 ratio 0.69
+nbl average j cell list length 1.0
+nbl cell pairs, total: 12 excl: 8 66.7%
+nbl shift 22 ncj  12
+nbl bounding box only distance 0.646552
+nbl nc_i 32 col.av. 0.7 ci_block 3
+number of distance checks 96
+nbl nci 3 ncj 30
+nbl na_cj 4 rl 1.303 ncp 30 per cell 0.9 atoms 3.8 ratio 1.74
+nbl average j cell list length 2.5
+nbl cell pairs, total: 30 excl: 6 20.0%
+nbl shift 22 ncj  30
+number of distance checks 48
+nbl nci 3 ncj 39
+nbl na_cj 4 rl 1.303 ncp 39 per cell 1.2 atoms 4.9 ratio 2.26
+nbl average j cell list length 3.2
+nbl cell pairs, total: 39 excl: 18 46.2%
+nbl shift 22 ncj  39
+number of distance checks 102
+nbl nci 3 ncj 48
+nbl na_cj 4 rl 1.303 ncp 48 per cell 1.5 atoms 6.0 ratio 2.78
+nbl average j cell list length 4.0
+nbl cell pairs, total: 48 excl: 20 41.7%
+nbl shift 22 ncj  48
+number of distance checks 260
+nbl nci 3 ncj 75
+nbl na_cj 4 rl 1.303 ncp 75 per cell 2.3 atoms 9.4 ratio 4.34
+nbl average j cell list length 6.2
+nbl cell pairs, total: 75 excl: 14 18.7%
+nbl shift 22 ncj  75
+Pair-list ncjMax 75 ncjTotal 412
+nbl nci 6 ncj 43
+nbl na_cj 4 rl 1.303 ncp 43 per cell 1.3 atoms 5.4 ratio 2.49
+nbl average j cell list length 1.8
+nbl cell pairs, total: 43 excl: 15 34.9%
+nbl shift 17 ncj   9
+nbl shift 22 ncj  34
+nbl nci 5 ncj 65
+nbl na_cj 4 rl 1.303 ncp 65 per cell 2.0 atoms 8.1 ratio 3.76
+nbl average j cell list length 3.2
+nbl cell pairs, total: 65 excl: 12 18.5%
+nbl shift 17 ncj   9
+nbl shift 22 ncj  56
+nbl nci 1 ncj 25
+nbl na_cj 4 rl 1.303 ncp 25 per cell 0.8 atoms 3.1 ratio 1.45
+nbl average j cell list length 6.2
+nbl cell pairs, total: 25 excl: 5 20.0%
+nbl shift 22 ncj  25
+nbl nci 2 ncj 47
+nbl na_cj 4 rl 1.303 ncp 47 per cell 1.5 atoms 5.9 ratio 2.72
+nbl average j cell list length 5.9
+nbl cell pairs, total: 47 excl: 11 23.4%
+nbl shift 22 ncj  47
+nbl nci 3 ncj 45
+nbl na_cj 4 rl 1.303 ncp 45 per cell 1.4 atoms 5.6 ratio 2.60
+nbl average j cell list length 3.8
+nbl cell pairs, total: 45 excl: 18 40.0%
+nbl shift 22 ncj  45
+nbl nci 2 ncj 37
+nbl na_cj 4 rl 1.303 ncp 37 per cell 1.2 atoms 4.6 ratio 2.14
+nbl average j cell list length 4.6
+nbl cell pairs, total: 37 excl: 7 18.9%
+nbl shift 22 ncj  37
+nbl nci 2 ncj 33
+nbl na_cj 4 rl 1.303 ncp 33 per cell 1.0 atoms 4.1 ratio 1.91
+nbl average j cell list length 4.1
+nbl cell pairs, total: 33 excl: 13 39.4%
+nbl shift 22 ncj  33
+nbl nci 3 ncj 42
+nbl na_cj 4 rl 1.303 ncp 42 per cell 1.3 atoms 5.2 ratio 2.43
+nbl average j cell list length 3.5
+nbl cell pairs, total: 42 excl: 21 50.0%
+nbl shift 22 ncj  42
+nbl nci 4 ncj 42
+nbl na_cj 4 rl 1.303 ncp 42 per cell 1.3 atoms 5.2 ratio 2.43
+nbl average j cell list length 2.6
+nbl cell pairs, total: 42 excl: 10 23.8%
+nbl shift 22 ncj  42
+nbl nci 6 ncj 33
+nbl na_cj 4 rl 1.303 ncp 33 per cell 1.0 atoms 4.1 ratio 1.91
+nbl average j cell list length 1.4
+nbl cell pairs, total: 33 excl: 24 72.7%
+nbl shift 22 ncj  33
+nbnxn reduction: #flag 8 #list 10 elem 6.50, keep 0.00 copy 0.00 red 6.50
+Vlr_q = 266.002, Vcorr_q = -2.77182e-17, Vlr_corr_q = 266.002
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 3.74523e+01,  1.15486e+01, -3.54907e+01}
+   vir_el_recip after corr[    1]={ 1.15486e+01, -1.32538e+01, -1.37244e+01}
+   vir_el_recip after corr[    2]={-3.54907e+01, -1.37244e+01,  7.64250e+00}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions        286.
+ Calc Weights                      357.
+ Spread Q Bspline                 7616.
+ Gather F Bspline                 7616.
+ 3D-FFT                        6119186.
+ Solve PME                       90944.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                              58.
+ Angles                            207.
+ Propers                           282.
+ Impropers                          21.
+ Stop-CM                           119.
+ Calc-Ekin                         119.
+ Lincs                             120.
+ Lincs-Mat                         624.
+ Constraint-V                      120.
+vir_part (3x3):
+   vir_part[    0]={ 1.30353e+02, -2.06304e+02,  2.38271e+02}
+   vir_part[    1]={-2.06302e+02,  1.28761e+02,  1.30425e+02}
+   vir_part[    2]={ 2.38274e+02,  1.30426e+02,  2.49725e+02}
+vir_force (3x3):
+   vir_force[    0]={ 1.67806e+02, -1.94755e+02,  2.02781e+02}
+   vir_force[    1]={-1.94753e+02,  1.15507e+02,  1.16700e+02}
+   vir_force[    2]={ 2.02784e+02,  1.16702e+02,  2.57368e+02}
+dvd-fep-lambdasl[ 0]: 0.000000: non-linear 0.000000 + linear 0.000000
+dvd-fep-lambdasl[ 2]: 0.000000: non-linear 0.000000 + linear 0.000000
+dvd-fep-lambdasl[ 3]: 0.000000: non-linear 0.000000 + linear 0.000000
+dvd-fep-lambdasl[ 4]: 0.000000: non-linear 0.000000 + linear 0.000000
+dvd-fep-lambdasl[ 5]: 0.000000: non-linear 0.000000 + linear 0.000000
+dvd-fep-lambdasl[ 6]: 0.000000: non-linear 0.000000 + linear 0.000000
+Initial charge group distribution:  119
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          0.004958    0.014802     76     77
+        After LINCS          0.000001    0.000003    114    116
+
+PC: pres (3x3):
+   PC: pres[    0]={-1.58874e+01,  2.88193e+01, -2.39006e+01}
+   PC: pres[    1]={ 2.88190e+01, -9.47267e+00, -1.33915e+01}
+   PC: pres[    2]={-2.39010e+01, -1.33918e+01, -3.02104e+01}
+PC: ekin (3x3):
+   PC: ekin[    0]={ 1.18938e+02,  1.99788e+01,  1.59963e+00}
+   PC: ekin[    1]={ 1.99788e+01,  1.14044e+02,  7.35406e+00}
+   PC: ekin[    2]={ 1.59963e+00,  7.35406e+00,  1.13784e+02}
+PC: vir  (3x3):
+   PC: vir [    0]={ 2.50222e+02, -2.18167e+02,  1.99101e+02}
+   PC: vir [    1]={-2.18165e+02,  1.92321e+02,  1.18014e+02}
+   PC: vir [    2]={ 1.99104e+02,  1.18016e+02,  3.63426e+02}
+PC: box  (3x3):
+   PC: box [    0]={ 6.49850e+00,  0.00000e+00,  0.00000e+00}
+   PC: box [    1]={ 0.00000e+00,  6.49850e+00,  0.00000e+00}
+   PC: box [    2]={ 0.00000e+00,  0.00000e+00,  6.49850e+00}
+Vlr_q = 0, Vcorr_q = -2.77182e-17, Vlr_corr_q = -2.77182e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01001e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01001e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01001e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]         6352.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]               240.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]          6352.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions        572.
+ Calc Weights                      714.
+ Spread Q Bspline                15232.
+ Gather F Bspline                15232.
+ 3D-FFT                       12238372.
+ Solve PME                      181888.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                             116.
+ Angles                            414.
+ Propers                           564.
+ Impropers                          42.
+ Virial                            164.
+ Stop-CM                           238.
+ Calc-Ekin                         238.
+ Lincs                             180.
+ Lincs-Mat                         936.
+ Constraint-V                      240.
+ Constraint-Vir                     60.
+TC: group 0: Ekr 67014.9, Ek 350.839, Ek_new 12454.4, Lambda: 5.9581
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          0.051575    0.216580     76     77
+        After LINCS          0.000001    0.000003    114    116
+
+Vlr_q = 0, Vcorr_q = -2.77206e-17, Vlr_corr_q = -2.77206e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01018e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01018e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01018e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]        12704.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]               480.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]         12704.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions        858.
+ Calc Weights                     1071.
+ Spread Q Bspline                22848.
+ Gather F Bspline                22848.
+ 3D-FFT                       18357558.
+ Solve PME                      272832.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                             174.
+ Angles                            621.
+ Propers                           846.
+ Impropers                          63.
+ Virial                            164.
+ Stop-CM                           238.
+ Calc-Ekin                         238.
+ Lincs                             240.
+ Lincs-Mat                        1248.
+ Constraint-V                      360.
+ Constraint-Vir                     60.
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          0.069342    0.273166     76     77
+        After LINCS          0.000001    0.000003     56     57
+
+Vlr_q = 0, Vcorr_q = -2.77206e-17, Vlr_corr_q = -2.77206e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01018e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01018e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01018e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]        19056.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]               720.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]         19056.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions       1144.
+ Calc Weights                     1428.
+ Spread Q Bspline                30464.
+ Gather F Bspline                30464.
+ 3D-FFT                       24476744.
+ Solve PME                      363776.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                             232.
+ Angles                            828.
+ Propers                          1128.
+ Impropers                          84.
+ Virial                            164.
+ Stop-CM                           238.
+ Calc-Ekin                         238.
+ Lincs                             300.
+ Lincs-Mat                        1560.
+ Constraint-V                      480.
+ Constraint-Vir                     60.
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          0.039593    0.143477     86     87
+        After LINCS          0.000001    0.000002    108    109
+
+Vlr_q = 0, Vcorr_q = -2.77206e-17, Vlr_corr_q = -2.77206e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01018e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01018e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01018e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]        25408.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]               960.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]         25408.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions       1430.
+ Calc Weights                     1785.
+ Spread Q Bspline                38080.
+ Gather F Bspline                38080.
+ 3D-FFT                       30595930.
+ Solve PME                      454720.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                             290.
+ Angles                           1035.
+ Propers                          1410.
+ Impropers                         105.
+ Virial                            164.
+ Stop-CM                           238.
+ Calc-Ekin                         238.
+ Lincs                             360.
+ Lincs-Mat                        1872.
+ Constraint-V                      600.
+ Constraint-Vir                     60.
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          0.040991    0.153104     76     77
+        After LINCS          0.000001    0.000003     10     12
+
+PC: pres (3x3):
+   PC: pres[    0]={ 1.15637e+02,  1.64207e+01, -2.80715e+01}
+   PC: pres[    1]={ 1.64207e+01,  1.00767e+02,  7.90659e+00}
+   PC: pres[    2]={-2.80715e+01,  7.90659e+00,  1.55021e+02}
+PC: ekin (3x3):
+   PC: ekin[    0]={ 1.03790e+03,  1.12268e+02, -2.35627e+02}
+   PC: ekin[    1]={ 1.12268e+02,  9.09424e+02,  6.66441e+01}
+   PC: ekin[    2]={-2.35627e+02,  6.66441e+01,  1.38695e+03}
+PC: vir  (3x3):
+   PC: vir [    0]={ 8.24167e+01, -2.34121e+01, -3.67992e+00}
+   PC: vir [    1]={-2.34121e+01,  7.68142e+01,  1.31411e+00}
+   PC: vir [    2]={-3.67992e+00,  1.31411e+00,  1.06058e+02}
+PC: box  (3x3):
+   PC: box [    0]={ 6.49831e+00,  0.00000e+00,  0.00000e+00}
+   PC: box [    1]={ 0.00000e+00,  6.49831e+00,  0.00000e+00}
+   PC: box [    2]={ 0.00000e+00,  0.00000e+00,  6.49831e+00}
+Vlr_q = 0, Vcorr_q = -2.77206e-17, Vlr_corr_q = -2.77206e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01018e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01018e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01018e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]        31760.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]              1200.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]         31760.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions       1716.
+ Calc Weights                     2142.
+ Spread Q Bspline                45696.
+ Gather F Bspline                45696.
+ 3D-FFT                       36715116.
+ Solve PME                      545664.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                             348.
+ Angles                           1242.
+ Propers                          1692.
+ Impropers                         126.
+ Virial                            164.
+ Stop-CM                           238.
+ Calc-Ekin                         357.
+ Lincs                             420.
+ Lincs-Mat                        2184.
+ Constraint-V                      720.
+ Constraint-Vir                     60.
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          0.058381    0.276310     76     77
+        After LINCS          0.000001    0.000002     58     59
+
+PC: pres (3x3):
+   PC: pres[    0]={ 2.56752e+02,  2.91295e+01, -5.62058e+01}
+   PC: pres[    1]={ 2.91295e+01,  2.18485e+02,  5.55235e+00}
+   PC: pres[    2]={-5.62058e+01,  5.55235e+00,  3.22088e+02}
+PC: ekin (3x3):
+   PC: ekin[    0]={ 2.20388e+03,  2.17277e+02, -4.68093e+02}
+   PC: ekin[    1]={ 2.17277e+02,  1.88209e+03,  4.71917e+01}
+   PC: ekin[    2]={-4.68093e+02,  4.71917e+01,  2.76738e+03}
+PC: vir  (3x3):
+   PC: vir [    0]={ 8.24167e+01, -2.34121e+01, -3.67992e+00}
+   PC: vir [    1]={-2.34121e+01,  7.68142e+01,  1.31411e+00}
+   PC: vir [    2]={-3.67992e+00,  1.31411e+00,  1.06058e+02}
+PC: box  (3x3):
+   PC: box [    0]={ 6.49831e+00,  0.00000e+00,  0.00000e+00}
+   PC: box [    1]={ 0.00000e+00,  6.49831e+00,  0.00000e+00}
+   PC: box [    2]={ 0.00000e+00,  0.00000e+00,  6.49831e+00}
+Vlr_q = 0, Vcorr_q = -2.77206e-17, Vlr_corr_q = -2.77206e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01018e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01018e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01018e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]        38112.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]              1440.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]         38112.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions       2002.
+ Calc Weights                     2499.
+ Spread Q Bspline                53312.
+ Gather F Bspline                53312.
+ 3D-FFT                       42834302.
+ Solve PME                      636608.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                             406.
+ Angles                           1449.
+ Propers                          1974.
+ Impropers                         147.
+ Virial                            164.
+ Stop-CM                           238.
+ Calc-Ekin                         476.
+ Lincs                             480.
+ Lincs-Mat                        2496.
+ Constraint-V                      840.
+ Constraint-Vir                     60.
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          0.065036    0.292285     76     77
+        After LINCS          0.000001    0.000003     30     32
+
+Vlr_q = 0, Vcorr_q = -2.77206e-17, Vlr_corr_q = -2.77206e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01018e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01018e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01018e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]        44464.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]              1680.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]         44464.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions       2288.
+ Calc Weights                     2856.
+ Spread Q Bspline                60928.
+ Gather F Bspline                60928.
+ 3D-FFT                       48953488.
+ Solve PME                      727552.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                             464.
+ Angles                           1656.
+ Propers                          2256.
+ Impropers                         168.
+ Virial                            164.
+ Stop-CM                           238.
+ Calc-Ekin                         476.
+ Lincs                             540.
+ Lincs-Mat                        2808.
+ Constraint-V                      960.
+ Constraint-Vir                     60.
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          0.057707    0.202322     76     77
+        After LINCS          0.000001    0.000003    108    109
+
+Vlr_q = 0, Vcorr_q = -2.77206e-17, Vlr_corr_q = -2.77206e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01018e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01018e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01018e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]        50816.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]              1920.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]         50816.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions       2574.
+ Calc Weights                     3213.
+ Spread Q Bspline                68544.
+ Gather F Bspline                68544.
+ 3D-FFT                       55072674.
+ Solve PME                      818496.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                             522.
+ Angles                           1863.
+ Propers                          2538.
+ Impropers                         189.
+ Virial                            164.
+ Stop-CM                           238.
+ Calc-Ekin                         476.
+ Lincs                             600.
+ Lincs-Mat                        3120.
+ Constraint-V                     1080.
+ Constraint-Vir                     60.
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          0.046332    0.108769     76     77
+        After LINCS          0.000001    0.000002     14     17
+
+Vlr_q = 0, Vcorr_q = -2.77206e-17, Vlr_corr_q = -2.77206e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01018e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01018e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01018e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]        57168.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]              2160.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]         57168.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions       2860.
+ Calc Weights                     3570.
+ Spread Q Bspline                76160.
+ Gather F Bspline                76160.
+ 3D-FFT                       61191860.
+ Solve PME                      909440.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                             580.
+ Angles                           2070.
+ Propers                          2820.
+ Impropers                         210.
+ Virial                            164.
+ Stop-CM                           238.
+ Calc-Ekin                         476.
+ Lincs                             660.
+ Lincs-Mat                        3432.
+ Constraint-V                     1200.
+ Constraint-Vir                     60.
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          0.044894    0.155963     30     33
+        After LINCS          0.000001    0.000003    114    115
+
+PC: pres (3x3):
+   PC: pres[    0]={ 2.54801e+02,  2.82282e+01, -4.39790e+01}
+   PC: pres[    1]={ 2.82282e+01,  2.62624e+02,  2.12437e+00}
+   PC: pres[    2]={-4.39790e+01,  2.12437e+00,  3.11754e+02}
+PC: ekin (3x3):
+   PC: ekin[    0]={ 2.18776e+03,  2.09830e+02, -3.67066e+02}
+   PC: ekin[    1]={ 2.09830e+02,  2.24680e+03,  1.88672e+01}
+   PC: ekin[    2]={-3.67066e+02,  1.88672e+01,  2.68200e+03}
+PC: vir  (3x3):
+   PC: vir [    0]={ 8.24167e+01, -2.34121e+01, -3.67992e+00}
+   PC: vir [    1]={-2.34121e+01,  7.68142e+01,  1.31411e+00}
+   PC: vir [    2]={-3.67992e+00,  1.31411e+00,  1.06058e+02}
+PC: box  (3x3):
+   PC: box [    0]={ 6.49831e+00,  0.00000e+00,  0.00000e+00}
+   PC: box [    1]={ 0.00000e+00,  6.49831e+00,  0.00000e+00}
+   PC: box [    2]={ 0.00000e+00,  0.00000e+00,  6.49831e+00}
+Vlr_q = 0, Vcorr_q = -2.77206e-17, Vlr_corr_q = -2.77206e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01018e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01018e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01018e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]        63520.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]              2400.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]         63520.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions       3146.
+ Calc Weights                     3927.
+ Spread Q Bspline                83776.
+ Gather F Bspline                83776.
+ 3D-FFT                       67311046.
+ Solve PME                     1000384.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                             638.
+ Angles                           2277.
+ Propers                          3102.
+ Impropers                         231.
+ Virial                            164.
+ Stop-CM                           238.
+ Calc-Ekin                         595.
+ Lincs                             720.
+ Lincs-Mat                        3744.
+ Constraint-V                     1320.
+ Constraint-Vir                     60.
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          0.056047    0.168749     30     33
+        After LINCS          0.000001    0.000003     30     32
+
+PC: pres (3x3):
+   PC: pres[    0]={ 2.30542e+02,  3.09154e+01, -3.79813e+01}
+   PC: pres[    1]={ 3.09154e+01,  3.04323e+02,  4.63886e+00}
+   PC: pres[    2]={-3.79813e+01,  4.63886e+00,  3.06166e+02}
+PC: ekin (3x3):
+   PC: ekin[    0]={ 1.98732e+03,  2.32033e+02, -3.17509e+02}
+   PC: ekin[    1]={ 2.32033e+02,  2.59135e+03,  3.96437e+01}
+   PC: ekin[    2]={-3.17509e+02,  3.96437e+01,  2.63582e+03}
+PC: vir  (3x3):
+   PC: vir [    0]={ 8.24167e+01, -2.34121e+01, -3.67992e+00}
+   PC: vir [    1]={-2.34121e+01,  7.68142e+01,  1.31411e+00}
+   PC: vir [    2]={-3.67992e+00,  1.31411e+00,  1.06058e+02}
+PC: box  (3x3):
+   PC: box [    0]={ 6.49831e+00,  0.00000e+00,  0.00000e+00}
+   PC: box [    1]={ 0.00000e+00,  6.49831e+00,  0.00000e+00}
+   PC: box [    2]={ 0.00000e+00,  0.00000e+00,  6.49831e+00}
+Vlr_q = 0, Vcorr_q = -2.77206e-17, Vlr_corr_q = -2.77206e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01018e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01018e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01018e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]        69872.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]              2640.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]         69872.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions       3432.
+ Calc Weights                     4284.
+ Spread Q Bspline                91392.
+ Gather F Bspline                91392.
+ 3D-FFT                       73430232.
+ Solve PME                     1091328.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                             696.
+ Angles                           2484.
+ Propers                          3384.
+ Impropers                         252.
+ Virial                            164.
+ Stop-CM                           238.
+ Calc-Ekin                         714.
+ Lincs                             780.
+ Lincs-Mat                        4056.
+ Constraint-V                     1440.
+ Constraint-Vir                     60.
+TC: group 0: Ekr 67014.9, Ek 7584.87, Ek_new 18267.4, Lambda: 1.5519
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          0.118585    0.549388     76     77
+        After LINCS          0.000004    0.000026     60     62
+
+Vlr_q = 0, Vcorr_q = -2.77206e-17, Vlr_corr_q = -2.77206e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01018e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01018e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01018e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]        76224.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]              2880.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]         76224.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions       3718.
+ Calc Weights                     4641.
+ Spread Q Bspline                99008.
+ Gather F Bspline                99008.
+ 3D-FFT                       79549418.
+ Solve PME                     1182272.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                             754.
+ Angles                           2691.
+ Propers                          3666.
+ Impropers                         273.
+ Virial                            164.
+ Stop-CM                           238.
+ Calc-Ekin                         714.
+ Lincs                             840.
+ Lincs-Mat                        4368.
+ Constraint-V                     1560.
+ Constraint-Vir                     60.
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          0.140923    0.692161     76     77
+        After LINCS          0.000002    0.000014     60     61
+
+Vlr_q = 0, Vcorr_q = -2.77206e-17, Vlr_corr_q = -2.77206e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01018e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01018e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01018e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]        82576.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]              3120.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]         82576.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions       4004.
+ Calc Weights                     4998.
+ Spread Q Bspline               106624.
+ Gather F Bspline               106624.
+ 3D-FFT                       85668604.
+ Solve PME                     1273216.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                             812.
+ Angles                           2898.
+ Propers                          3948.
+ Impropers                         294.
+ Virial                            164.
+ Stop-CM                           238.
+ Calc-Ekin                         714.
+ Lincs                             900.
+ Lincs-Mat                        4680.
+ Constraint-V                     1680.
+ Constraint-Vir                     60.
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          0.099785    0.302597     24     25
+        After LINCS          0.000001    0.000005    114    116
+
+Vlr_q = 0, Vcorr_q = -2.77206e-17, Vlr_corr_q = -2.77206e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01018e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01018e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01018e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]        88928.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]              3360.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]         88928.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions       4290.
+ Calc Weights                     5355.
+ Spread Q Bspline               114240.
+ Gather F Bspline               114240.
+ 3D-FFT                       91787790.
+ Solve PME                     1364160.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                             870.
+ Angles                           3105.
+ Propers                          4230.
+ Impropers                         315.
+ Virial                            164.
+ Stop-CM                           238.
+ Calc-Ekin                         714.
+ Lincs                             960.
+ Lincs-Mat                        4992.
+ Constraint-V                     1800.
+ Constraint-Vir                     60.
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          0.084184    0.224683     24     25
+        After LINCS          0.000001    0.000003      1      2
+
+PC: pres (3x3):
+   PC: pres[    0]={ 3.75971e+02,  1.56575e+01, -5.25913e+01}
+   PC: pres[    1]={ 1.56575e+01,  4.12073e+02,  1.88956e+01}
+   PC: pres[    2]={-5.25913e+01,  1.88956e+01,  3.98665e+02}
+PC: ekin (3x3):
+   PC: ekin[    0]={ 3.18896e+03,  1.05962e+02, -4.38227e+02}
+   PC: ekin[    1]={ 1.05962e+02,  3.48166e+03,  1.57443e+02}
+   PC: ekin[    2]={-4.38227e+02,  1.57443e+02,  3.40011e+03}
+PC: vir  (3x3):
+   PC: vir [    0]={ 8.24167e+01, -2.34121e+01, -3.67992e+00}
+   PC: vir [    1]={-2.34121e+01,  7.68142e+01,  1.31411e+00}
+   PC: vir [    2]={-3.67992e+00,  1.31411e+00,  1.06058e+02}
+PC: box  (3x3):
+   PC: box [    0]={ 6.49831e+00,  0.00000e+00,  0.00000e+00}
+   PC: box [    1]={ 0.00000e+00,  6.49831e+00,  0.00000e+00}
+   PC: box [    2]={ 0.00000e+00,  0.00000e+00,  6.49831e+00}
+Vlr_q = 0, Vcorr_q = -2.77206e-17, Vlr_corr_q = -2.77206e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01018e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01018e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01018e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]        95280.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]              3600.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]         95280.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions       4576.
+ Calc Weights                     5712.
+ Spread Q Bspline               121856.
+ Gather F Bspline               121856.
+ 3D-FFT                       97906976.
+ Solve PME                     1455104.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                             928.
+ Angles                           3312.
+ Propers                          4512.
+ Impropers                         336.
+ Virial                            164.
+ Stop-CM                           238.
+ Calc-Ekin                         833.
+ Lincs                            1020.
+ Lincs-Mat                        5304.
+ Constraint-V                     1920.
+ Constraint-Vir                     60.
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          0.091559    0.414502     76     77
+        After LINCS          0.000001    0.000003     38     39
+
+PC: pres (3x3):
+   PC: pres[    0]={ 5.13668e+02,  1.81229e+01, -7.91933e+01}
+   PC: pres[    1]={ 1.81229e+01,  5.40541e+02,  2.01986e+01}
+   PC: pres[    2]={-7.91933e+01,  2.01986e+01,  4.88721e+02}
+PC: ekin (3x3):
+   PC: ekin[    0]={ 4.32671e+03,  1.26333e+02, -6.58032e+02}
+   PC: ekin[    1]={ 1.26333e+02,  4.54315e+03,  1.68209e+02}
+   PC: ekin[    2]={-6.58032e+02,  1.68209e+02,  4.14422e+03}
+PC: vir  (3x3):
+   PC: vir [    0]={ 8.24167e+01, -2.34121e+01, -3.67992e+00}
+   PC: vir [    1]={-2.34121e+01,  7.68142e+01,  1.31411e+00}
+   PC: vir [    2]={-3.67992e+00,  1.31411e+00,  1.06058e+02}
+PC: box  (3x3):
+   PC: box [    0]={ 6.49831e+00,  0.00000e+00,  0.00000e+00}
+   PC: box [    1]={ 0.00000e+00,  6.49831e+00,  0.00000e+00}
+   PC: box [    2]={ 0.00000e+00,  0.00000e+00,  6.49831e+00}
+Vlr_q = 0, Vcorr_q = -2.77206e-17, Vlr_corr_q = -2.77206e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01018e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01018e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01018e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]       101632.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]              3840.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]        101632.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions       4862.
+ Calc Weights                     6069.
+ Spread Q Bspline               129472.
+ Gather F Bspline               129472.
+ 3D-FFT                      104026162.
+ Solve PME                     1546048.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                             986.
+ Angles                           3519.
+ Propers                          4794.
+ Impropers                         357.
+ Virial                            164.
+ Stop-CM                           238.
+ Calc-Ekin                         952.
+ Lincs                            1080.
+ Lincs-Mat                        5616.
+ Constraint-V                     2040.
+ Constraint-Vir                     60.
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          0.084344    0.260610     76     77
+        After LINCS          0.000001    0.000003     26     29
+
+Vlr_q = 0, Vcorr_q = -2.77206e-17, Vlr_corr_q = -2.77206e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01018e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01018e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01018e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]       107984.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]              4080.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]        107984.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions       5148.
+ Calc Weights                     6426.
+ Spread Q Bspline               137088.
+ Gather F Bspline               137088.
+ 3D-FFT                      110145348.
+ Solve PME                     1636992.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                            1044.
+ Angles                           3726.
+ Propers                          5076.
+ Impropers                         378.
+ Virial                            164.
+ Stop-CM                           238.
+ Calc-Ekin                         952.
+ Lincs                            1140.
+ Lincs-Mat                        5928.
+ Constraint-V                     2160.
+ Constraint-Vir                     60.
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          0.129186    0.815056     76     77
+        After LINCS          0.000001    0.000005     10     13
+
+Vlr_q = 0, Vcorr_q = -2.77206e-17, Vlr_corr_q = -2.77206e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01018e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01018e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01018e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]       114336.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]              4320.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]        114336.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions       5434.
+ Calc Weights                     6783.
+ Spread Q Bspline               144704.
+ Gather F Bspline               144704.
+ 3D-FFT                      116264534.
+ Solve PME                     1727936.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                            1102.
+ Angles                           3933.
+ Propers                          5358.
+ Impropers                         399.
+ Virial                            164.
+ Stop-CM                           238.
+ Calc-Ekin                         952.
+ Lincs                            1200.
+ Lincs-Mat                        6240.
+ Constraint-V                     2280.
+ Constraint-Vir                     60.
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          0.169525    1.079536     76     77
+        After LINCS          0.000001    0.000005     10     13
+
+Vlr_q = 0, Vcorr_q = -2.77206e-17, Vlr_corr_q = -2.77206e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01018e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01018e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01018e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]       120688.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]              4560.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]        120688.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions       5720.
+ Calc Weights                     7140.
+ Spread Q Bspline               152320.
+ Gather F Bspline               152320.
+ 3D-FFT                      122383720.
+ Solve PME                     1818880.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                            1160.
+ Angles                           4140.
+ Propers                          5640.
+ Impropers                         420.
+ Virial                            164.
+ Stop-CM                           238.
+ Calc-Ekin                         952.
+ Lincs                            1260.
+ Lincs-Mat                        6552.
+ Constraint-V                     2400.
+ Constraint-Vir                     60.
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          0.166585    0.946509     76     77
+        After LINCS          0.000001    0.000006     14     15
+
+PC: pres (3x3):
+   PC: pres[    0]={ 5.84576e+02, -1.25343e+01, -2.52713e+01}
+   PC: pres[    1]={-1.25343e+01,  6.43931e+02,  5.95692e+01}
+   PC: pres[    2]={-2.52713e+01,  5.95692e+01,  4.90462e+02}
+PC: ekin (3x3):
+   PC: ekin[    0]={ 4.91260e+03, -1.26980e+02, -2.12490e+02}
+   PC: ekin[    1]={-1.26980e+02,  5.39744e+03,  4.93518e+02}
+   PC: ekin[    2]={-2.12490e+02,  4.93518e+02,  4.15861e+03}
+PC: vir  (3x3):
+   PC: vir [    0]={ 8.24167e+01, -2.34121e+01, -3.67992e+00}
+   PC: vir [    1]={-2.34121e+01,  7.68142e+01,  1.31411e+00}
+   PC: vir [    2]={-3.67992e+00,  1.31411e+00,  1.06058e+02}
+PC: box  (3x3):
+   PC: box [    0]={ 6.49831e+00,  0.00000e+00,  0.00000e+00}
+   PC: box [    1]={ 0.00000e+00,  6.49831e+00,  0.00000e+00}
+   PC: box [    2]={ 0.00000e+00,  0.00000e+00,  6.49831e+00}
+Vlr_q = 0, Vcorr_q = -2.77206e-17, Vlr_corr_q = -2.77206e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01018e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01018e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01018e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]       127040.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]              4800.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]        127040.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions       6006.
+ Calc Weights                     7497.
+ Spread Q Bspline               159936.
+ Gather F Bspline               159936.
+ 3D-FFT                      128502906.
+ Solve PME                     1909824.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                            1218.
+ Angles                           4347.
+ Propers                          5922.
+ Impropers                         441.
+ Virial                            164.
+ Stop-CM                           238.
+ Calc-Ekin                        1071.
+ Lincs                            1320.
+ Lincs-Mat                        6864.
+ Constraint-V                     2520.
+ Constraint-Vir                     60.
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          0.148861    0.736351     76     77
+        After LINCS          0.000001    0.000005     30     32
+
+PC: pres (3x3):
+   PC: pres[    0]={ 6.16604e+02, -4.34067e+01,  6.28789e+00}
+   PC: pres[    1]={-4.34067e+01,  6.95529e+02,  1.08893e+02}
+   PC: pres[    2]={ 6.28789e+00,  1.08893e+02,  5.29319e+02}
+PC: ekin (3x3):
+   PC: ekin[    0]={ 5.17724e+03, -3.82070e+02,  4.82751e+01}
+   PC: ekin[    1]={-3.82070e+02,  5.82378e+03,  9.01068e+02}
+   PC: ekin[    2]={ 4.82752e+01,  9.01068e+02,  4.47967e+03}
+PC: vir  (3x3):
+   PC: vir [    0]={ 8.24167e+01, -2.34121e+01, -3.67992e+00}
+   PC: vir [    1]={-2.34121e+01,  7.68142e+01,  1.31411e+00}
+   PC: vir [    2]={-3.67992e+00,  1.31411e+00,  1.06058e+02}
+PC: box  (3x3):
+   PC: box [    0]={ 6.49831e+00,  0.00000e+00,  0.00000e+00}
+   PC: box [    1]={ 0.00000e+00,  6.49831e+00,  0.00000e+00}
+   PC: box [    2]={ 0.00000e+00,  0.00000e+00,  6.49831e+00}
+Vlr_q = 0, Vcorr_q = -2.77206e-17, Vlr_corr_q = -2.77206e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01018e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01018e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01018e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]       133392.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]              5040.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]        133392.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions       6292.
+ Calc Weights                     7854.
+ Spread Q Bspline               167552.
+ Gather F Bspline               167552.
+ 3D-FFT                      134622092.
+ Solve PME                     2000768.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                            1276.
+ Angles                           4554.
+ Propers                          6204.
+ Impropers                         462.
+ Virial                            164.
+ Stop-CM                           238.
+ Calc-Ekin                        1190.
+ Lincs                            1380.
+ Lincs-Mat                        7176.
+ Constraint-V                     2640.
+ Constraint-Vir                     60.
+TC: group 0: Ekr 67014.9, Ek 15495.7, Ek_new 24680, Lambda: 1.26202
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          0.184773    0.861619     76     77
+        After LINCS          0.000008    0.000054     10     11
+
+Vlr_q = 0, Vcorr_q = -2.77206e-17, Vlr_corr_q = -2.77206e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01018e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01018e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01018e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]       139744.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]              5280.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]        139744.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions       6578.
+ Calc Weights                     8211.
+ Spread Q Bspline               175168.
+ Gather F Bspline               175168.
+ 3D-FFT                      140741278.
+ Solve PME                     2091712.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                            1334.
+ Angles                           4761.
+ Propers                          6486.
+ Impropers                         483.
+ Virial                            164.
+ Stop-CM                           238.
+ Calc-Ekin                        1190.
+ Lincs                            1440.
+ Lincs-Mat                        7488.
+ Constraint-V                     2760.
+ Constraint-Vir                     60.
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          0.199424    1.127865     76     77
+        After LINCS          0.042751    0.331151     76     77
+
+Vlr_q = 0, Vcorr_q = -2.77206e-17, Vlr_corr_q = -2.77206e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01018e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01018e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01018e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]       146096.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]              5520.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]        146096.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions       6864.
+ Calc Weights                     8568.
+ Spread Q Bspline               182784.
+ Gather F Bspline               182784.
+ 3D-FFT                      146860464.
+ Solve PME                     2182656.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                            1392.
+ Angles                           4968.
+ Propers                          6768.
+ Impropers                         504.
+ Virial                            164.
+ Stop-CM                           238.
+ Calc-Ekin                        1190.
+ Lincs                            1500.
+ Lincs-Mat                        7800.
+ Constraint-V                     2880.
+ Constraint-Vir                     60.
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          0.327720    2.272774     76     77
+        After LINCS          0.080436    0.485959     80     82
+
+Vlr_q = 0, Vcorr_q = -2.77206e-17, Vlr_corr_q = -2.77206e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01018e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01018e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01018e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]       152448.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]              5760.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]        152448.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions       7150.
+ Calc Weights                     8925.
+ Spread Q Bspline               190400.
+ Gather F Bspline               190400.
+ 3D-FFT                      152979650.
+ Solve PME                     2273600.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                            1450.
+ Angles                           5175.
+ Propers                          7050.
+ Impropers                         525.
+ Virial                            164.
+ Stop-CM                           238.
+ Calc-Ekin                        1190.
+ Lincs                            1560.
+ Lincs-Mat                        8112.
+ Constraint-V                     3000.
+ Constraint-Vir                     60.
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          0.506036    2.662396     80     82
+        After LINCS          0.020807    0.161169     76     77
+
+PC: pres (3x3):
+   PC: pres[    0]={ 8.80754e+02, -5.97231e+01, -9.34367e+01}
+   PC: pres[    1]={-5.97231e+01,  6.93341e+02,  1.23445e+02}
+   PC: pres[    2]={-9.34367e+01,  1.23445e+02,  9.45073e+02}
+PC: ekin (3x3):
+   PC: ekin[    0]={ 7.35984e+03, -5.16887e+02, -7.75721e+02}
+   PC: ekin[    1]={-5.16887e+02,  5.80570e+03,  1.02130e+03}
+   PC: ekin[    2]={-7.75721e+02,  1.02130e+03,  7.91493e+03}
+PC: vir  (3x3):
+   PC: vir [    0]={ 8.24167e+01, -2.34121e+01, -3.67992e+00}
+   PC: vir [    1]={-2.34121e+01,  7.68142e+01,  1.31411e+00}
+   PC: vir [    2]={-3.67992e+00,  1.31411e+00,  1.06058e+02}
+PC: box  (3x3):
+   PC: box [    0]={ 6.49831e+00,  0.00000e+00,  0.00000e+00}
+   PC: box [    1]={ 0.00000e+00,  6.49831e+00,  0.00000e+00}
+   PC: box [    2]={ 0.00000e+00,  0.00000e+00,  6.49831e+00}
+Vlr_q = 227.065, Vcorr_q = -2.77206e-17, Vlr_corr_q = 227.065
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 9.99619e+00,  4.01673e+00, -3.04444e+01}
+   vir_el_recip after corr[    1]={ 4.01673e+00,  5.99135e+00, -1.24338e+01}
+   vir_el_recip after corr[    2]={-3.04444e+01, -1.24338e+01,  2.95548e+01}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]       158800.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]              6000.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]        158800.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions       7436.
+ Calc Weights                     9282.
+ Spread Q Bspline               198016.
+ Gather F Bspline               198016.
+ 3D-FFT                      159098836.
+ Solve PME                     2364544.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                            1508.
+ Angles                           5382.
+ Propers                          7332.
+ Impropers                         546.
+ Virial                            164.
+ Stop-CM                           238.
+ Calc-Ekin                        1309.
+ Lincs                            1620.
+ Lincs-Mat                        8424.
+ Constraint-V                     3120.
+ Constraint-Vir                     60.
+vir_part (3x3):
+   vir_part[    0]={ 5.76886e+03, -2.98850e+03, -1.08765e+03}
+   vir_part[    1]={-2.98852e+03,  9.38243e+03,  7.34496e+02}
+   vir_part[    2]={-1.08761e+03,  7.34501e+02,  3.16422e+03}
+vir_force (3x3):
+   vir_force[    0]={ 5.77886e+03, -2.98449e+03, -1.11809e+03}
+   vir_force[    1]={-2.98450e+03,  9.38842e+03,  7.22062e+02}
+   vir_force[    2]={-1.11806e+03,  7.22067e+02,  3.19378e+03}
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          0.303607    1.805120     76     77
+        After LINCS          0.081324    0.626227     80     82
+
+Guessed pbc = xyz from the box matrix
+Guessed pbc = xyz from the box matrix
+PC: pres (3x3):
+   PC: pres[    0]={-4.34349e+02,  7.19023e+02,  3.15294e+02}
+   PC: pres[    1]={ 7.19025e+02, -1.06850e+03, -1.40978e+02}
+   PC: pres[    2]={ 3.15290e+02, -1.40978e+02,  9.03099e+02}
+PC: ekin (3x3):
+   PC: ekin[    0]={ 1.07180e+04, -1.98980e+02, -2.58286e+02}
+   PC: ekin[    1]={-1.98980e+02,  6.26321e+03,  9.96176e+02}
+   PC: ekin[    2]={-2.58286e+02,  9.96176e+02,  1.45333e+04}
+PC: vir  (3x3):
+   PC: vir [    0]={ 1.43069e+04, -6.14006e+03, -2.86347e+03}
+   PC: vir [    1]={-6.14008e+03,  1.50919e+04,  2.16103e+03}
+   PC: vir [    2]={-2.86344e+03,  2.16104e+03,  7.07126e+03}
+PC: box  (3x3):
+   PC: box [    0]={ 6.49831e+00,  0.00000e+00,  0.00000e+00}
+   PC: box [    1]={ 0.00000e+00,  6.49831e+00,  0.00000e+00}
+   PC: box [    2]={ 0.00000e+00,  0.00000e+00,  6.49831e+00}
+Vlr_q = 0, Vcorr_q = -2.77206e-17, Vlr_corr_q = -2.77206e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01018e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01018e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01018e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]       165152.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]              6240.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]        165152.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions       7722.
+ Calc Weights                     9639.
+ Spread Q Bspline               205632.
+ Gather F Bspline               205632.
+ 3D-FFT                      165218022.
+ Solve PME                     2455488.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                            1566.
+ Angles                           5589.
+ Propers                          7614.
+ Impropers                         567.
+ Virial                            328.
+ Stop-CM                           238.
+ Calc-Ekin                        1428.
+ Lincs                            1680.
+ Lincs-Mat                        8736.
+ Constraint-V                     3240.
+ Constraint-Vir                    120.
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          0.515642    2.963644     80     82
+        After LINCS          0.193472    1.498630     76     77
+
+Guessed pbc = xyz from the box matrix
+Guessed pbc = xyz from the box matrix
+Vlr_q = 0, Vcorr_q = -2.77478e-17, Vlr_corr_q = -2.77478e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01216e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01216e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01216e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]       171504.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]              6480.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]        171504.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions       8008.
+ Calc Weights                     9996.
+ Spread Q Bspline               213248.
+ Gather F Bspline               213248.
+ 3D-FFT                      171337208.
+ Solve PME                     2546432.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                            1624.
+ Angles                           5796.
+ Propers                          7896.
+ Impropers                         588.
+ Virial                            328.
+ Stop-CM                           238.
+ Calc-Ekin                        1428.
+ Lincs                            1740.
+ Lincs-Mat                        9048.
+ Constraint-V                     3360.
+ Constraint-Vir                    120.
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          0.762478    5.645549     76     77
+        After LINCS          0.666949    5.012857     76     77
+
+Guessed pbc = xyz from the box matrix
+Guessed pbc = xyz from the box matrix
+Vlr_q = 0, Vcorr_q = -2.77478e-17, Vlr_corr_q = -2.77478e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01216e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01216e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01216e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]       177856.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]              6720.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]        177856.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions       8294.
+ Calc Weights                    10353.
+ Spread Q Bspline               220864.
+ Gather F Bspline               220864.
+ 3D-FFT                      177456394.
+ Solve PME                     2637376.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                            1682.
+ Angles                           6003.
+ Propers                          8178.
+ Impropers                         609.
+ Virial                            328.
+ Stop-CM                           238.
+ Calc-Ekin                        1428.
+ Lincs                            1800.
+ Lincs-Mat                        9360.
+ Constraint-V                     3480.
+ Constraint-Vir                    120.
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          1.703764    12.383525     76     77
+        After LINCS          0.345652    2.677412     76     77
+
+Guessed pbc = xyz from the box matrix
+Guessed pbc = xyz from the box matrix
+Vlr_q = 0, Vcorr_q = -2.77478e-17, Vlr_corr_q = -2.77478e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01216e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01216e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01216e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]       184208.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]              6960.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]        184208.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions       8580.
+ Calc Weights                    10710.
+ Spread Q Bspline               228480.
+ Gather F Bspline               228480.
+ 3D-FFT                      183575580.
+ Solve PME                     2728320.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                            1740.
+ Angles                           6210.
+ Propers                          8460.
+ Impropers                         630.
+ Virial                            328.
+ Stop-CM                           238.
+ Calc-Ekin                        1428.
+ Lincs                            1860.
+ Lincs-Mat                        9672.
+ Constraint-V                     3600.
+ Constraint-Vir                    120.
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          1.524480    11.710425     76     77
+        After LINCS          0.454602    3.521330     76     77
+
+Guessed pbc = xyz from the box matrix
+Guessed pbc = xyz from the box matrix
+PC: pres (3x3):
+   PC: pres[    0]={ 5.18898e+02, -7.57234e+02,  2.75000e+02}
+   PC: pres[    1]={-7.57234e+02,  3.91515e+03,  2.44792e+02}
+   PC: pres[    2]={ 2.75000e+02,  2.44792e+02,  1.38799e+03}
+PC: ekin (3x3):
+   PC: ekin[    0]={ 1.28114e+04, -9.40627e+03,  5.24643e+02}
+   PC: ekin[    1]={-9.40627e+03,  3.80217e+04,  3.45964e+03}
+   PC: ekin[    2]={ 5.24643e+02,  3.45964e+03,  1.53348e+04}
+PC: vir  (3x3):
+   PC: vir [    0]={ 8.52805e+03, -3.15558e+03, -1.74538e+03}
+   PC: vir [    1]={-3.15558e+03,  5.70352e+03,  1.43897e+03}
+   PC: vir [    2]={-1.74538e+03,  1.43897e+03,  3.87749e+03}
+PC: box  (3x3):
+   PC: box [    0]={ 6.49619e+00,  0.00000e+00,  0.00000e+00}
+   PC: box [    1]={ 0.00000e+00,  6.49619e+00,  0.00000e+00}
+   PC: box [    2]={ 0.00000e+00,  0.00000e+00,  6.49619e+00}
+Vlr_q = 0, Vcorr_q = -2.77478e-17, Vlr_corr_q = -2.77478e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01216e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01216e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01216e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]       190560.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]              7200.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]        190560.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions       8866.
+ Calc Weights                    11067.
+ Spread Q Bspline               236096.
+ Gather F Bspline               236096.
+ 3D-FFT                      189694766.
+ Solve PME                     2819264.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                            1798.
+ Angles                           6417.
+ Propers                          8742.
+ Impropers                         651.
+ Virial                            328.
+ Stop-CM                           238.
+ Calc-Ekin                        1547.
+ Lincs                            1920.
+ Lincs-Mat                        9984.
+ Constraint-V                     3720.
+ Constraint-Vir                    120.
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          11.640186    63.436478     80     82
+        After LINCS          11.359818    63.041374     78     79
+
+Guessed pbc = xyz from the box matrix
+Guessed pbc = xyz from the box matrix
+PC: pres (3x3):
+   PC: pres[    0]={ 1.33513e+04, -6.39549e+04,  3.83947e+03}
+   PC: pres[    1]={-6.39549e+04,  7.18425e+05,  8.65000e+03}
+   PC: pres[    2]={ 3.83947e+03,  8.65000e+03,  3.97151e+03}
+PC: ekin (3x3):
+   PC: ekin[    0]={ 1.18738e+05, -5.31080e+05,  2.99480e+04}
+   PC: ekin[    1]={-5.31080e+05,  5.93604e+06,  7.28416e+04}
+   PC: ekin[    2]={ 2.99480e+04,  7.28416e+04,  3.66609e+04}
+PC: vir  (3x3):
+   PC: vir [    0]={ 8.52805e+03, -3.15558e+03, -1.74538e+03}
+   PC: vir [    1]={-3.15558e+03,  5.70352e+03,  1.43897e+03}
+   PC: vir [    2]={-1.74538e+03,  1.43897e+03,  3.87749e+03}
+PC: box  (3x3):
+   PC: box [    0]={ 6.49619e+00,  0.00000e+00,  0.00000e+00}
+   PC: box [    1]={ 0.00000e+00,  6.49619e+00,  0.00000e+00}
+   PC: box [    2]={ 0.00000e+00,  0.00000e+00,  6.49619e+00}
+Vlr_q = 0, Vcorr_q = -2.77478e-17, Vlr_corr_q = -2.77478e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01216e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01216e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01216e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]       196912.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]              7440.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]        196912.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions       9152.
+ Calc Weights                    11424.
+ Spread Q Bspline               243712.
+ Gather F Bspline               243712.
+ 3D-FFT                      195813952.
+ Solve PME                     2910208.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                            1856.
+ Angles                           6624.
+ Propers                          9024.
+ Impropers                         672.
+ Virial                            328.
+ Stop-CM                           238.
+ Calc-Ekin                        1666.
+ Lincs                            1980.
+ Lincs-Mat                       10296.
+ Constraint-V                     3840.
+ Constraint-Vir                    120.
+TC: group 0: Ekr 67014.9, Ek 1.20869e+07, Ek_new 9.90993e+06, Lambda: 0.905477
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          21.861998    121.096054     78     79
+        After LINCS          1.387225    6.907214     80     83
+
+Guessed pbc = xyz from the box matrix
+Guessed pbc = xyz from the box matrix
+Vlr_q = 0, Vcorr_q = -2.77478e-17, Vlr_corr_q = -2.77478e-17
+vir_el_recip after corr (3x3):
+   vir_el_recip after corr[    0]={ 1.01216e-19,  0.00000e+00,  0.00000e+00}
+   vir_el_recip after corr[    1]={ 0.00000e+00,  1.01216e-19,  0.00000e+00}
+   vir_el_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  1.01216e-19}
+Vlr_lj: 0, Vcorr_lj = 0, Vlr_corr_lj = 0
+vir_lj_recip after corr (3x3):
+   vir_lj_recip after corr[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   vir_lj_recip after corr[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+ Pair Search distance check       1496.
+ NxN Ewald Elec. + LJ [F]       203264.
+ NxN Ewald Elec. + LJ [V&F]       6352.
+ NxN Ewald Elec. [F]              7680.
+ NxN Ewald Elec. [V&F]             240.
+ NxN LJ add F-switch [F]        203264.
+ NxN LJ add F-switch [V&F]        6352.
+ 1,4 nonbonded interactions       9438.
+ Calc Weights                    11781.
+ Spread Q Bspline               251328.
+ Gather F Bspline               251328.
+ 3D-FFT                      201933138.
+ Solve PME                     3001152.
+ Reset In Box                      119.
+ CG-CoM                            238.
+ Bonds                            1914.
+ Angles                           6831.
+ Propers                          9306.
+ Impropers                         693.
+ Virial                            328.
+ Stop-CM                           238.
+ Calc-Ekin                        1666.
+ Lincs                            2040.
+ Lincs-Mat                       10608.
+ Constraint-V                     3960.
+ Constraint-Vir                    120.
+   Rel. Constraint Deviation:  RMS         MAX     between atoms
+       Before LINCS          11172.931641    63481.066406     76     77
+        After LINCS          9353.464844    59692.984375     76     77
+
+Guessed pbc = xyz from the box matrix
+Guessed pbc = xyz from the box matrix

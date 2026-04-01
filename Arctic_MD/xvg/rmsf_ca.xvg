@@ -1,0 +1,59 @@
+# This file was created Mon Aug  4 13:26:07 2025
+# Created by:
+#                  :-) GROMACS - gmx rmsf, 2025.1-Homebrew (-:
+# 
+# Executable:   /opt/homebrew/bin/../Cellar/gromacs/2025.1/bin/gmx
+# Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2025.1
+# Working dir:  /Users/kushalpatil/Downloads/md
+# Command line:
+#   gmx rmsf -s md1.tpr -f md_nop.xtc -o rmsf_ca.xvg
+# gmx rmsf is part of G R O M A C S:
+#
+# Glycine aRginine prOline Methionine Alanine Cystine Serine
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Atom"
+@    yaxis  label "(nm)"
+@TYPE xy
+    5   0.7706
+   17   0.7033
+   27   0.5837
+   42   0.7400
+   62   0.6277
+   86   0.5955
+  103   0.5302
+  115   0.8085
+  126   0.7598
+  133   0.5904
+  154   0.3394
+  169   0.4242
+  185   0.5111
+  202   0.5653
+  219   0.7198
+  236   0.8933
+  258   0.7338
+  277   0.5979
+  293   0.3955
+  313   0.3605
+  333   0.5202
+  343   0.6620
+  350   0.6451
+  362   0.6487
+  378   0.6932
+  385   0.6874
+  396   0.5973
+  410   0.5333
+  432   0.5431
+  439   0.5583
+  449   0.6755
+  468   0.7186
+  487   0.6180
+  494   0.5961
+  513   0.5725
+  530   0.6283
+  546   0.6380
+  553   0.5211
+  560   0.5065
+  576   0.6272
+  592   0.8037
+  611   1.0273
