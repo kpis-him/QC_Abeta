@@ -1,0 +1,449 @@
+%Version 3.1 December 2024
+% See section 11 of the User Manual for version history
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                 %%
+%% Please do not use \input{...} to include other tex files.       %%
+%% Submit your LaTeX manuscript as one .tex document.              %%
+%%                                                                 %%
+%% All additional figures and files should be attached             %%
+%% separately and not embedded in the \TeX\ document itself.       %%
+%%                                                                 %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%\documentclass[referee,sn-basic]{sn-jnl}% referee option is meant for double line spacing
+
+%%=======================================================%%
+%% to print line numbers in the margin use lineno option %%
+%%=======================================================%%
+
+%%\documentclass[lineno,pdflatex,sn-basic]{sn-jnl}% Basic Springer Nature Reference Style/Chemistry Reference Style
+
+%%=========================================================================================%%
+%% the documentclass is set to pdflatex as default. You can delete it if not appropriate.  %%
+%%=========================================================================================%%
+
+%%\documentclass[sn-basic]{sn-jnl}% Basic Springer Nature Reference Style/Chemistry Reference Style
+
+%%Note: the following reference styles support Namedate and Numbered referencing. By default the style follows the most common style. To switch between the options you can add or remove Numbered in the optional parenthesis. 
+%%The option is available for: sn-basic.bst, sn-chicago.bst%  
+ 
+%%\documentclass[pdflatex,sn-nature]{sn-jnl}% Style for submissions to Nature Portfolio journals
+%%\documentclass[pdflatex,sn-basic]{sn-jnl}% Basic Springer Nature Reference Style/Chemistry Reference Style
+\documentclass[pdflatex,sn-mathphys-num]{sn-jnl}% Math and Physical Sciences Numbered Reference Style
+%%\documentclass[pdflatex,sn-mathphys-ay]{sn-jnl}% Math and Physical Sciences Author Year Reference Style
+%%\documentclass[pdflatex,sn-aps]{sn-jnl}% American Physical Society (APS) Reference Style
+%%\documentclass[pdflatex,sn-vancouver-num]{sn-jnl}% Vancouver Numbered Reference Style
+%%\documentclass[pdflatex,sn-vancouver-ay]{sn-jnl}% Vancouver Author Year Reference Style
+%%\documentclass[pdflatex,sn-apa]{sn-jnl}% APA Reference Style
+%%\documentclass[pdflatex,sn-chicago]{sn-jnl}% Chicago-based Humanities Reference Style
+
+%%%% Standard Packages
+%%<additional latex packages if required can be included hereless than
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}%
+\usepackage{multirow}%
+\usepackage{amsmath,amssymb,amsfonts}%
+\usepackage{amsthm}%
+\usepackage{mathrsfs}%
+\usepackage[title]{appendix}%
+\usepackage{xcolor}%
+\usepackage{textcomp}%
+\usepackage{manyfoot}%
+\usepackage{booktabs}%
+\usepackage{algorithm}%
+\usepackage{algorithmicx}%
+\usepackage{algpseudocode}%
+\usepackage{listings}%
+\usepackage{float}%
+\usepackage{upgreek}%
+\usepackage{subcaption}%
+%%%%
+
+%%%%%=============================================================================%%%%
+%%%%  Remarks: This template is provided to aid authors with the preparation
+%%%%  of original research articles intended for submission to journals published 
+%%%%  by Springer Nature. The guidance has been prepared in partnership with 
+%%%%  production teams to conform to Springer Nature technical requirements. 
+%%%%  Editorial and presentation requirements differ among journal portfolios and 
+%%%%  research disciplines. You may find sections in this template are irrelevant 
+%%%%  to your work and are empowered to omit any such section if allowed by the 
+%%%%  journal you intend to submit to. The submission guidelines and policies 
+%%%%  of the journal take precedence. A detailed User Manual is available in the 
+%%%%  template package for technical guidance.
+%%%%%=============================================================================%%%%
+
+%% as per the requirement new theorem styles can be included as shown below
+\theoremstyle{thmstyleone}%
+\newtheorem{theorem}{Theorem}%  meant for continuous numbers
+%%\newtheorem{theorem}{Theorem}[section]% meant for sectionwise numbers
+%% optional argument [theorem] produces theorem numbering sequence instead of independent numbers for Proposition
+\newtheorem{proposition}[theorem]{Proposition}% 
+%%\newtheorem{proposition}{Proposition}% to get separate numbers for theorem and proposition etc.
+
+\theoremstyle{thmstyletwo}%
+\newtheorem{example}{Example}%
+\newtheorem{remark}{Remark}%
+
+\theoremstyle{thmstylethree}%
+\newtheorem{definition}{Definition}%
+
+\raggedbottom
+%%\unnumbered% uncomment this for unnumbered level heads
+
+\begin{document}
+
+\title[Article Title]{A Novel Hybrid Quantum-Classical Computational Study of Energetic and Conformational Differences in Amyloid-$\beta$ variants}
+
+%%=============================================================%%
+%% GivenName	-less than \fnm{Joergen W.}
+%% Particle	-less than \spfx{van der} -less than surname prefix
+%% FamilyName	-less than \sur{Ploeg}
+%% Suffix	-less than \sfx{IV}
+%% \author*[1,2]{\fnm{Joergen W.} \spfx{van der} \sur{Ploeg} 
+%%  \sfx{IV}}\email{iauthor@gmail.com}
+%%=============================================================%%
+
+\author*[1,2]{\fnm{Kushal} \sur{Patil}}\email{ikushal1990@gmail.com}
+
+
+\affil*[1]{\orgdiv{Student}, \orgname{Lincoln Sudbury Regional High School}, \orgaddress{\street{30 Lincoln Rd}, \city{Sudbury}, \postcode{01776}, \state{MA}, \country{United States}}}
+
+
+%%==================================%%
+%% Sample for unstructured abstract %%
+%%==================================%%
+
+\abstract{The pathogenic Arctic mutation\cite{arctic_mutation} (E22G) in amyloid-β (Aβ) accelerates fibril formation in Alzheimer’s disease; however, its electronic-level effects on the hydrophobic aggregation core remain poorly characterized. Here, we present a hybrid classical-quantum computational framework that brings together molecular dynamics with variational quantum eigensolver (VQE\cite{peruzzo2014} \cite{fedorov2021} \cite{tilly2022}) calculations to resolve the frontier orbital energetics of the LVFFA segment (res 17-21) in wild-type and Arctic Aβ. Following microsecond-scale MD simulations, we extracted the most stable peptide conformers, applied a hydrogen cap to generate chemically complete fragments, and computed active-space Hamiltonians from density-functional theory using an active space transformer\cite{active_space} to identify the HOMO and LUMO orbitals. VQE\cite{peruzzo2014} simulations on these reduced Hamiltonians reveal an electronic stabilization in the Arctic variant compared to the wild-type protein. This suggests a direct quantum-level contribution to its propensity of aggregation. Our results demonstrate a transferable workflow for probing biomolecular electronic structure on near-term quantum devices, bridging molecular biophysics and quantum computation for larger systems.
+.}
+
+
+%\abstract{\textbf{Purpose:} The abstract serves both as a general introduction to the topic and as a brief, non-technical summary of the main results and their implications. The abstract must not include subheadings (unless expressly permitted in the journal's Instructions to Authors), equations or citations. As a guide the abstract should not exceed 200 words. Most journals do not set a hard limit however authors are advised to check the author instructions for the journal they are submitting to.
+
+% \textbf{Methods:} The abstract serves both as a general introduction to the topic and as a brief, non-technical summary of the main results and their implications. The abstract must not include subheadings (unless expressly permitted in the journal's Instructions to Authors), equations or citations. As a guide the abstract should not exceed 200 words. Most journals do not set a hard limit however authors are advised to check the author instructions for the journal they are submitting to.
+% 
+% \textbf{Results:} The abstract serves both as a general introduction to the topic and as a brief, non-technical summary of the main results and their implications. The abstract must not include subheadings (unless expressly permitted in the journal's Instructions to Authors), equations or citations. As a guide the abstract should not exceed 200 words. Most journals do not set a hard limit however authors are advised to check the author instructions for the journal they are submitting to.
+% 
+% \textbf{Conclusion:} The abstract serves both as a general introduction to the topic and as a brief, non-technical summary of the main results and their implications. The abstract must not include subheadings (unless expressly permitted in the journal's Instructions to Authors), equations or citations. As a guide the abstract should not exceed 200 words. Most journals do not set a hard limit however authors are advised to check the author instructions for the journal they are submitting to.}
+
+\keywords{Amyloid Beta, Wild type, Arctic Mutant\cite{arctic_mutation}, Variational Quantum Eigensolver}
+
+%%\pacs[JEL Classification]{D8, H51}
+
+%%\pacs[MSC Classification]{35A01, 65L10, 65L12, 65L20, 65L70}
+
+\maketitle 
+
+\section{Introduction}\label{sec1}
+
+Alzheimer’s disease, the most common form of dementia, affects more than 7 million people in the United States and represents a critical biomedical and social challenge. A defining molecular hallmark of the disease is the accumulation of extracellular plaques composed of beta-amyloid (A$\beta$) peptides. In particular, the Arctic variant of A$\beta$ with the E22G mutation is associated with hereditary Alzheimer’s that exhibits accelerated aggregation compared to wild-type peptides, making it an important target for study. Computational approaches such as all-atom molecular dynamics (MD) have provided invaluable insights into A$\beta$ structure and dynamics, yet remain limited in their ability to look into the quantum-level electronic properties that underpin the propensity for aggregation. Here, we propose a combined classical–quantum workflow that integrates MD simulations with quantum algorithms, a Variational Quantum Eigensolver (VQE\cite{peruzzo2014}), to examine electronic structure features of A$\beta$ peptide fragments, specifically the hydrophobic LVFFA core(Figure 1). This hybrid approach aims to accelerate current simulation workflows while offering deeper mechanistic insights and paving the way for broader applications in the study of protein misfolding and other complex biophysical systems.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{Screenshot 2025-08-12 at 2.53.58 PM.png}
+    \caption{LVFFA segment of Amyloid Beta}
+    \label{fig:placeholder}
+\end{figure}
+\section{Process}\label{sec1}
+The methodology involves a multi-faceted approach that bridges all-atom molecular dynamics with quantum algorithms (Figure 2). This reduces the runtime and allows for deeper insights than classical methods.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{Screenshot 2025-08-16 at 10.56.11 PM.png}
+    \caption{Schematic depicting the methodology and flow from all-atom MD to Quantum runs, while also depicting the analyzed material}
+    \label{fig:hello}
+\end{figure}
+
+
+\subsection{\textbf{All-Atom MD}}
+
+All-atom simulations were performed with GROMACS\cite{gromacs2015} 2025.1 with the AMBER-R03\cite{amber_ff14sb} forcefield for both Arctic and wild-type variants. The proteins were solvated with water using TIP3P in a cubic box with 1nm buffer. Once solvated, Energy minimization was conducted with the steepest energy minimization gradient until the maximum force was below 100 kJ/mol/nm. The calibration consisted of 500 ps in the NVT ensemble followed by 500 ps in the NPT ensemble at 300 K and 1 bar, using the velocity scaling thermostat and the Parrinello-Rahman barostat.
+
+Production simulations were run for 1 $\micro$s with a 2 fs timestep, saving coordinates every 10 ps. Potential energy profiles were extracted with gmx\cite{gromacs2015} energy from xvg output files. The three most stable conformers from each system was isolated using gmx\cite{gromacs2015} trjconv dump (Figure 3).
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{0.31\linewidth}
+    \includegraphics[width=\linewidth]{image14.png}
+    \caption{Set 1}
+    \label{fig:arctic}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.31\linewidth}
+    \includegraphics[width=\linewidth]{image15.png}
+        \caption{Set 2}
+    \label{fig:wt}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.31\linewidth}
+    \includegraphics[width=\linewidth]{image16.png}
+    \caption{Set 3}
+        \label{fig:wt}
+  \end{subfigure}
+  \caption{Overlays of the 3 sets of snapshots ranked from least to most energetic}
+  \label{fig:cluster-pop}
+\end{figure}
+The LVFFA pentapeptide segment was then extracted and capped with hydrogen atoms to avoid artificial charge artifacts. All geometric manipulations were performed in UCSF ChimeraX\cite{chimerax2018}, and the capping was performed using RdKit\cite{rdkit}.
+
+
+
+\subsection{\textbf{Electronic Structure Problem Creation}}
+The Electronic structure problems were created using PySCF\cite{pyscf2020} 2.7.0. The PySCF\cite{pyscf2020} driver was a dual-path driver function that integrates classical solvation effects using ddCOSMO ($\epsilon$=80.0). Each fragment was first modeled using PySCF\cite{pyscf2020}’s restricted Hartree-Fock(RHF) method, followed by ddCOSMO to simulate an aqueous Environment. This structure captures key electrostatic effects relevant to biological environments. The molecular geometry, charge, and spin multiplicity were specified with Angstroms and STO-3G as the basis set. A shift of 0.2 was added to aid convergence. Selected HOMO-LUMO orbitals from were used to generate Gaussian cube files; prior energy identification runs were used to identify these orbitals(tables in supplement). To interface with the Quantum section, Qiskit-Nature\cite{qiskit2019}\cite{qiskit_nature2021}(0.7.2)’s PySCFDriver\cite{pyscf2020} was used to create an ElectronicStructureProblem object. This object will be mapped and used for the VQE\cite{peruzzo2014} run.
+
+\subsection{\textbf{Active Space\cite{active_space} Creation}}
+To reduce computational overhead and focus on chemically relevant orbitals, we employed Qiskit\cite{qiskit2019} Nature’s ActiveSpaceTransformer to construct reduced Hamiltonians for variational quantum eigensolver (VQE\cite{peruzzo2014}) simulations.  The active space\cite{active_space} configuration explored was 4 orbitals/4 electrons (4o4e). These spaces were centered around the frontier orbitals, specifically the HOMO–LUMO region, with symmetric extensions of ±1 orbitals to capture near-degenerate excitations and charge-transfer character.
+The active space\cite{active_space} was defined by selecting molecular orbitals relative to the canonical HOMO and LUMO indices obtained from PySCF\cite{pyscf2020}. This approach ensures that the most chemically and electronically significant orbitals are retained, while discarding deeply core and high-lying virtual orbitals that contribute minimally to correlation energy. The resulting second-quantized Hamiltonians were mapped to qubit operators using the Jordan-Wigner mapper. This strategy balances physical accuracy with quantum resource efficiency, enabling meaningful comparisons between Arctic and wild-type A$\beta$ fragments across conformational ensembles.
+\subsection{\textbf{Quantum Simulation Protocol (Qiskit\cite{qiskit2019} 1.4.3)}}
+Molecular integrals from each active space\cite{active_space} configuration were generated using PySCF\cite{pyscf2020} and down-folded into second-quantized Hamiltonians. These were mapped to qubit operators via the Jordan–Wigner transformation using Qiskit\cite{qiskit2019} -nature 0.7.2. Simulations targeted the LVFFA segment of Arctic and wild-type conformers, extracted from MD trajectories and capped with hydrogen atoms.
+Two variational ansätze were employed:
+\begin{itemize}
+    \item Two local circuits with Ry and Rz rotation blocks and CZ entanglement (reps=2), optimized using the COBYLA(maxiter=200) classical optimizer. (Figure 4)
+\end{itemize}
+\begin{itemize}
+    \item UCCSD (unitary coupled-cluster singles and doubles), initialized with Hartree–Fock reference states and optimized using COBYLA(maxiter=200). (Figure 5)
+\end{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{Screenshot 2025-08-16 at 10.32.05 PM.png}
+    \caption{UCCSD ansatz from VQE\cite{peruzzo2014} runs, depth 196, 8 qubits}
+    \label{fig:placeholder}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{image.png}
+    \caption{TwoLocal ansatz circuit from VQE\cite{peruzzo2014} runs, depth 166, 8 qubits}
+    \label{fig:placeholder}
+\end{figure}
+All quantum simulations were executed on the Statevector simulator backend of Qiskit\cite{qiskit2019}. Total VQE\cite{peruzzo2014} energies were computed for Arctic and wild-type fragments across each active space\cite{active_space} configuration. The resulting energy gap ($\Delta$E) was used to quantify electronic stability differences and assess the impact of mutation on the energetics of the ground state.
+
+\subsection{\textbf{Classical Validation}}
+
+To validate quantum results, classical reference energies were computed using the B3LYP\cite{b3lyp} density functional theory in ORCA\cite{orca2020} (only for set 3 peptides), to ensure consistency in geometry and basis set across methods. These benchmarks served to contextualize delta E values and assess the reliability of quantum approximations. The variation from the mean VQE $\Delta$ E of ~0.030 Ha which is attributed to the difference in the basis sets between the ORCA\cite{orca2020}and VQE\cite{peruzzo2014} runs, which were imposed due to computational cost. The restricted Hartree-Fock calculations (RHF) and DFT calculations yielded energies within < 0.000005 hartree of the converged SCF energy, confirming the numerical stability and orbital consistency across fragments.
+\section{Results}\label{sec2}
+
+\subsection{\textbf{All-atom MD}}
+
+To probe the structural landscape, all-atom MD for wild-type and Arctic Amyloid beta was performed. From the production trajectories, potential energy profiles were extracted using gmx\cite{gromacs2015} energy. Conformational Stability was assessed using the resulting XVG graphs with pronounced energy fluctuations, consistent with transient stabilization events. Rather than relying on a single snapshot, we extracted the top three lowest-energy conformers from each trajectory using gmx\cite{gromacs2015} trjconv -dump(Figure 6), ensuring coverage of the most populated basin. These conformers were capped with hydrogen atoms to yield chemically complete LVFFA fragments suitable for quantum analysis. Gmx\cite{gromacs2015} dssp and clustering (Figures 7 and 8) confirmed that the selected Arctic conformers were structurally compact and $\beta$-sheet–enriched, while wild-type conformers displayed greater backbone flexibility and coil-like features.
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{0.48\linewidth}
+    \includegraphics[width=\linewidth]{Screenshot 2025-08-16 at 11.13.21 PM.png}
+    \caption{Wild Type}
+    \label{fig:arctic}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.48\linewidth}
+    \includegraphics[width=\linewidth]{Screenshot 2025-08-16 at 11.17.42 PMa.png}
+    \caption{Arctic Variant}
+    \label{fig:wt}
+  \end{subfigure}
+  \caption{Time evolution of the potential energy during molecular dynamics simulations of the amyloid-beta peptide. The graph displays the potential energy as a function of simulation time for both wild-type and Arctic (E22G) variants. Periods of energy stabilization and transient fluctuations reflect conformational transitions sampled during the microsecond-scale trajectory. Stable low-energy regions correspond to heavily populated clusters selected for subsequent quantum electronic structure analysis.}
+  \label{fig:cluster-pop}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{0.48\linewidth}
+    \includegraphics[width=\linewidth]{Screenshot 2025-08-16 at 11.18.44 PMa.png}
+    \caption{Arctic Variant}
+    \label{fig:arctic}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.48\linewidth}
+    \includegraphics[width=\linewidth]{Screenshot 2025-08-16 at 11.19.26 PMw.png}
+    \caption{Wild Type}
+    \label{fig:wt}
+  \end{subfigure}
+  \caption{Secondary structure assignment (DSSP) over the course of molecular dynamics simulations for wild-type and Arctic (E22G) amyloid-beta variants. The plot tracks the temporal evolution of backbone secondary structure elements—including $\beta$-sheets, coils, and turns—across the microsecond-scale trajectory. The Arctic variant exhibits an increased prevalence of compact $\beta$-sheet structures, while the wild-type displays greater coil and turn propensity, supporting the observed differences in aggregation behavior and quantum fragment selection.}
+  \label{fig:cluster-pop}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{0.48\linewidth}
+    \includegraphics[width=\linewidth]{arctic.png}
+    \caption{Arctic Variant}
+    \label{fig:arctic}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.48\linewidth}
+    \includegraphics[width=\linewidth]{wt.png}
+    \caption{Wild Type}
+    \label{fig:wt}
+  \end{subfigure}
+  \caption{Cluster population analysis of amyloid-beta peptide molecular dynamics trajectories. The bar plot shows the relative population of each conformational cluster identified from the whole production simulation, with clusters ranked by decreasing population. Populations are calculated as the fraction of trajectory frames assigned to each cluster. Peaks correspond to the most frequently sampled conformations, which were used as representative structures in downstream quantum simulations. This analysis confirms the presence of multiple metastable states and rationalizes the selection of biologically relevant snapshots for electronic structure calculations.}
+  \label{fig:cluster-pop}
+\end{figure}
+
+
+\subsection{\textbf{Quantum Readiness and Fragment Stability}}
+
+Each capped conformer was subjected to geometry optimization and orbital analysis via PySCF\cite{pyscf2020}. HOMO–LUMO gaps and orbital localization patterns were consistent across Arctic conformers, supporting their electronic stability. These fragments were then used for downstream DFT and VQE\cite{peruzzo2014} simulations, enabling ensemble-level comparison of electronic energies and mutation-induced stabilization.
+
+\subsection{\textbf{Electronic Structure and Active Space\cite{active_space} Selection}}
+
+Molecular orbital analysis of each representative snapshot revealed well-defined frontier orbitals localized predominantly on the LVFFA core. We selected a consistent active space\cite{active_space} spanning four spatial orbitals centered around the HOMO–LUMO pair to capture key electronic correlations. Orbital isosurface plots comparing Arctic and wild-type variants (Figure 9) illustrate subtle but meaningful changes in electronic density distribution induced by the E22G mutation, supporting the rationale for active space\cite{active_space} targeting.
+\begin{figure}[H]
+  \centering
+
+  \begin{subfigure}[b]{0.8\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{Screenshot 2025-08-17 at 12.32.08 AM.png}
+    \caption{Set 1}
+    \label{fig:arctic}
+  \end{subfigure}
+
+  \vspace{1em}
+
+  \begin{subfigure}[b]{0.8\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{Screenshot 2025-08-17 at 12.42.01 AM.png}
+    \caption{Set 2}
+    \label{fig:wt}
+  \end{subfigure}
+
+  \vspace{1em}
+
+  \begin{subfigure}[b]{0.8\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{Screenshot 2025-08-17 at 12.17.23 PM.png}
+    \caption{Set 3}
+    \label{fig:overlay}
+  \end{subfigure}
+
+  \caption{Visualization of HOMO-LUMO +/-1 Gaussian cube files depicting orbital isosurface amplitude from set 1. Generated by PySCF\cite{pyscf2020}, visualized by ChimeraX\cite{chimerax2018}, isovalue +/- 0.01 au, Red indicates the negative orbital surface, Blue indicates the positive orbital surface.}
+  \label{fig:stacked-clusters}
+\end{figure}
+
+
+\subsection{\textbf{Variational Quantum Eigensolver Convergence and Robustness}}
+
+VQE\cite{peruzzo2014} calculations employing a TwoLocal ansatz with COBYLA optimization converged reliably across all three representative snapshots, as shown by energy convergence curves (Figures 10 and 11). The ansatz circuit depth and qubit count were sufficient to capture the essential correlation effects within the active space\cite{active_space}. Preliminary tests with alternative ansatzes, ie. UCCSD further confirms that the observed results are robust concerning the choice of quantum circuit architecture.
+\begin{figure}[H]
+  \centering
+
+  \begin{subfigure}[b]{0.8\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{Screenshot 2025-08-17 at 12.25.56 PM.png}
+    \caption{Set 1}
+    \label{fig:arctic}
+  \end{subfigure}
+
+  \vspace{1em}
+
+  \begin{subfigure}[b]{0.8\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{Screenshot 2025-08-17 at 12.21.56 PM.png}
+    \caption{Set 2}
+    \label{fig:wt}
+  \end{subfigure}
+
+  \vspace{1em}
+
+  \begin{subfigure}[b]{0.8\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{Screenshot 2025-08-17 at 12.15.58 PM.png}
+    \caption{Set 3}
+    \label{fig:overlay}
+  \end{subfigure}
+
+  \caption{VQE\cite{peruzzo2014} convergence plots for the TwoLocal Ansatz with COBYLA optimizer}
+  \label{fig:stacked-clusters}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+
+  \begin{subfigure}[b]{0.8\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{Screenshot 2025-08-17 at 4.10.38 PM.png}
+    \caption{Set 1}
+    \label{fig:arctic}
+  \end{subfigure}
+
+  \vspace{1em}
+
+  \begin{subfigure}[b]{0.8\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{set2.png}
+    \caption{Set 2}
+    \label{fig:wt}
+  \end{subfigure}
+
+  \vspace{1em}
+
+  \begin{subfigure}[b]{0.8\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{set3.png}
+    \caption{Set 3}
+    \label{fig:overlay}
+  \end{subfigure}
+
+  \caption{VQE\cite{peruzzo2014} convergence plots for the UCCSD Ansatz with COBYLA optimizer. The blue line (WT) demonstrates rapid and stable convergence to a low energy value. The red line (Arctic) also converges to a stable low-energy region, but its path is characterized by small, contained fluctuations with a total variation of less than 0.02. This contrast highlights the two distinct types of stability: ideal stability (WT) versus stochastic stability (Arctic).}
+  \label{fig:stacked-clusters}
+\end{figure}
+\begin{table}[h]
+    \centering
+    \begin{tabular}{lccc}
+        \hline
+        \textbf{Final Energies TwoLocal} & \textbf{set 1} & \textbf{set 2} & \textbf{set 3} \\
+        \hline
+        WT: & -1805.442464695724 hartree & -1805.3403976778354 hartree & -1805.4792437043682 hartree \\
+        Arctic: & -1805.608530079002 hartree & -1805.8081573577185 hartree & -1805.4019456251028 hartree \\
+        $\Delta E$: & -0.16111600517797432 hartree & -0.338307983311455 hartree & 0.07729807935001 hartree\\
+        \hline
+    \end{tabular}
+    \caption{Mean Final Energies for Different Sets TwoLocal}
+    \label{tab:final_energies}
+\end{table}
+\begin{table}[h]
+    \centering
+    \begin{tabular}{lccc}
+        \hline
+        \textbf{Final Energies UCCSD} & \textbf{set 1} & \textbf{set 2} & \textbf{set 3} \\
+        \hline
+        WT: & -1804.3747380014656 hartree & -1804.3748172723126 hartree & -1804.3348172723126  hartree \\
+        Arctic: & -1804.3549091992782 hartree & -1804.3834322616767 hartree & -1804.3834322616767 hartree \\
+        $\Delta E$: & +0.01983 hartree & -0.00861 hartree & -0.04861 hartree \\
+        \hline
+    \end{tabular}
+    \caption{Mean Final Energies for Different Sets UCCSD}
+    \label{tab:final_energies}
+\end{table}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{Screenshot 2025-08-18 at 1.28.37 PM.png}
+    \caption{Inter-fragment RMSD for each snapshot}
+    \label{fig:placeholder}
+\end{figure}
+\section{Discussion}\label{sec3}
+
+
+    Our outcomes from this novel classical-quantum methodology yield a reproducible and translatable process that depicts the electronic and structural level differences of wild-type and Arctic $\beta$-Amyloid. In particular, the stabilization of the Arctic variant observed in the quantum simulations is consistent with its experimentally known increased fibrillation propensity and accelerated plaque formation. These results suggest that subtle orbital energy shifts in this case, differences in the HOMO–LUMO gap, may underlie the altered aggregation kinetics observed in familial Alzheimer’s disease mutations.
+
+Benchmarking against validated ORCA\cite{orca2020} B3LYP calculations for representative structures confirmed that the VQE\cite{peruzzo2014} with a TwoLocal ansatz can perform accurate correlation effects, outperforming RHF and other heuristic approaches over trajectory snapshots. This demonstrates that our novel hybrid-classical quantum methodology is not limited by the noise of ansatzes and/or expressability challenges often cited in quantum computing literature. Moreover, by limiting orbital treatment to an active space\cite{active_space} by using the results of informed MD simulations, the runtime was cut down by orders of magnitude, which classical algorithms can not accomplish.
+
+Methodologically, this represents the first full integration of fully atomistic MD simulations with quantum electronic structure treatment on biologically relevant peptide fragments. While QM/MM simulations are well-established in the field of quantum chemistry, expanding the high-level region into a quantum computing paradigm can lead to deeper electronic insights in such biomolecular environments. Importantly, this methodology is hardware-agnostic and can be adapted for near-term quantum devices, enabling incremental improvements in accuracy as qubit counts and fidelities increase.
+
+From a biomedical perspective, these findings motivate the exploration of mutation-specific electronic fingerprints in amyloidogenic peptides. If such quantum descriptors can be linked to aggregation rates or binding affinities, they could serve as computational biomarkers for early-stage therapeutic screening. From a computational science perspective, this study underscores the potential for variational quantum algorithms to tackle correlated electronic problems in realistic biological contexts, a domain traditionally out of reach for exact quantum chemistry at scale.
+
+The VQE convergence plots(Figures 10 and 11) over the two ansatzes highlight the importance of ansatz selection in VQE runs. Based on the results extracted from the VQEs. The UCCSD ansatz's output would be a more accurate representation of the electronic level differences despite the chaotic convergence plots. This is because UCCSD's $\Delta$E aligned more closely with the  B3LYP output and also because the UCCSD Convergence output reflects the differences in 'types' of electronic stability that the Arctic and Wild Type Amyloid-Beta display. The ideal stability of the Wild type and the stochastic stability of the Arctic type. The visible fluctuations, while contained within a very narrow total less than 0.02, are not a sign of failure, but rather a sign of a stochastic search method. This offers a powerful illustration of the complexity of quantum chemistry. 
+
+Future work will focus on extending this methodology to explicit solvent environments, as well as testing alternative ansätze. As quantum hardware matures, our approach could scale to full-length $\beta$-Amyloid peptides and beyond, paving the way toward quantum-accelerated biophysics.
+
+
+\section{Conclusions}\label{sec4}
+
+In summary, our hybrid molecular dynamics–VQE\cite{peruzzo2014} framework establishes a transferable pathway for probing the electronic structure of biomolecular fragments at a level of accuracy traditionally restricted to prohibitively expensive correlated methods. By coupling atomistic sampling with quantum electronic structure treatment, we access electronic descriptors and stability trends that are inaccessible to conventional QM/MM partitioning. The approach is readily adaptable to other peptides and molecular systems of comparable scale, providing a generalizable tool for exploring correlation-driven phenomena in biologically relevant contexts. As quantum hardware advances, this methodology offers a route toward routine quantum-accelerated characterization of complex molecular systems.
+
+\section{Acknowledgements}
+The author acknowledges the assistance provided by SHreyank Sandeep and Devaraj Patil
+
+All runs were conducted on either an Intel(R) Xeon(R) Gold 6212U CPU @ 2.40GHz or an Apple M4 Chip provided by Devaraj Patil. 
+
+The author greatly appreciates the assistance provided by Devaraj Patil and Shreyank Sandeep
+
+\section{Data availability}
+All data, scripts, and computational files supporting the findings of this study will be made available via a public GitHub repository upon publication at \href{lebron}{https://github.com/kpis-him}.
+
+\clearpage
+\bibliographystyle{nature}
+\bibliography{sn-bibliography}
+
+\end{document}

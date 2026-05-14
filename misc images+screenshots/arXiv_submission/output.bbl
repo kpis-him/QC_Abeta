@@ -1,0 +1,326 @@
+%% BioMed_Central_Bib_Style_v1.01
+
+\begin{thebibliography}{14}
+% BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
+\ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
+\ifx \binits  \undefined \def \binits#1{#1}\fi
+\ifx \bauthor  \undefined \def \bauthor#1{#1}\fi
+\ifx \batitle  \undefined \def \batitle#1{#1}\fi
+\ifx \bjtitle  \undefined \def \bjtitle#1{#1}\fi
+\ifx \bvolume  \undefined \def \bvolume#1{\textbf{#1}}\fi
+\ifx \byear  \undefined \def \byear#1{#1}\fi
+\ifx \bissue  \undefined \def \bissue#1{#1}\fi
+\ifx \bfpage  \undefined \def \bfpage#1{#1}\fi
+\ifx \blpage  \undefined \def \blpage #1{#1}\fi
+\ifx \burl  \undefined \def \burl#1{\textsf{#1}}\fi
+\ifx \doiurl  \undefined \def \doiurl#1{\url{https://doi.org/#1}}\fi
+\ifx \betal  \undefined \def \betal{\textit{et al.}}\fi
+\ifx \binstitute  \undefined \def \binstitute#1{#1}\fi
+\ifx \binstitutionaled  \undefined \def \binstitutionaled#1{#1}\fi
+\ifx \bctitle  \undefined \def \bctitle#1{#1}\fi
+\ifx \beditor  \undefined \def \beditor#1{#1}\fi
+\ifx \bpublisher  \undefined \def \bpublisher#1{#1}\fi
+\ifx \bbtitle  \undefined \def \bbtitle#1{#1}\fi
+\ifx \bedition  \undefined \def \bedition#1{#1}\fi
+\ifx \bseriesno  \undefined \def \bseriesno#1{#1}\fi
+\ifx \blocation  \undefined \def \blocation#1{#1}\fi
+\ifx \bsertitle  \undefined \def \bsertitle#1{#1}\fi
+\ifx \bsnm \undefined \def \bsnm#1{#1}\fi
+\ifx \bsuffix \undefined \def \bsuffix#1{#1}\fi
+\ifx \bparticle \undefined \def \bparticle#1{#1}\fi
+\ifx \barticle \undefined \def \barticle#1{#1}\fi
+\bibcommenthead
+\ifx \bconfdate \undefined \def \bconfdate #1{#1}\fi
+\ifx \botherref \undefined \def \botherref #1{#1}\fi
+\ifx \url \undefined \def \url#1{\textsf{#1}}\fi
+\ifx \bchapter \undefined \def \bchapter#1{#1}\fi
+\ifx \bbook \undefined \def \bbook#1{#1}\fi
+\ifx \bcomment \undefined \def \bcomment#1{#1}\fi
+\ifx \oauthor \undefined \def \oauthor#1{#1}\fi
+\ifx \citeauthoryear \undefined \def \citeauthoryear#1{#1}\fi
+\ifx \endbibitem  \undefined \def \endbibitem {}\fi
+\ifx \bconflocation  \undefined \def \bconflocation#1{#1}\fi
+\ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
+\csname PreBibitemsHook\endcsname
+
+%%% 1
+\bibitem[\protect\citeauthoryear{Lannfelt et~al.}{2008}]{arctic_mutation}
+\begin{barticle}
+\bauthor{\bsnm{Lannfelt}, \binits{L.}},
+\bauthor{\bsnm{Blennow}, \binits{K.}},
+\bauthor{\bsnm{Zetterberg}, \binits{H.}},
+\bauthor{\bsnm{Batsman}, \binits{S.}},
+\bauthor{\bsnm{Ames}, \binits{D.}},
+\bauthor{\bsnm{Harrison}, \binits{J.}},
+\bauthor{\bsnm{Masters}, \binits{C.L.}},
+\bauthor{\bsnm{Siemers}, \binits{S.}},
+\bauthor{\bsnm{Srivastava}, \binits{C.}},
+\bauthor{\bsnm{Kazmi}, \binits{H.}},
+\bauthor{\bsnm{Borjesson-Hanson}, \binits{R.}},
+\bauthor{\bsnm{Johansson}, \binits{J.}},
+\bauthor{\bsnm{Cummings}, \binits{J.L.}}:
+\batitle{Safety, efficacy, and biomarker findings of pbt2 in targeting abeta as a modifying therapy for alzheimer's disease: a phase iia, double-blind, randomised, placebo-controlled trial}.
+\bjtitle{The Lancet Neurology}
+\bvolume{7}(\bissue{9}),
+\bfpage{779}--\blpage{786}
+(\byear{2008})
+\doiurl{10.1016/S1474-4422(08)70167-4}
+\end{barticle}
+\endbibitem
+
+%%% 2
+\bibitem[\protect\citeauthoryear{Peruzzo et~al.}{2014}]{peruzzo2014}
+\begin{barticle}
+\bauthor{\bsnm{Peruzzo}, \binits{A.}},
+\bauthor{\bsnm{McClean}, \binits{J.}},
+\bauthor{\bsnm{Shadbolt}, \binits{P.}},
+\bauthor{\bsnm{Yung}, \binits{M.-H.}},
+\bauthor{\bsnm{Zhou}, \binits{X.-Q.}},
+\bauthor{\bsnm{Love}, \binits{P.J.}},
+\bauthor{\bsnm{Aspuru-Guzik}, \binits{A.}},
+\bauthor{\bsnm{O'Brien}, \binits{J.}}:
+\batitle{A variational eigenvalue solver on a quantum processor}.
+\bjtitle{Nature Communications}
+\bvolume{5},
+\bfpage{4213}
+(\byear{2014})
+\doiurl{10.1038/ncomms5213}
+\end{barticle}
+\endbibitem
+
+%%% 3
+\bibitem[\protect\citeauthoryear{Fedorov et~al.}{2021}]{fedorov2021}
+\begin{barticle}
+\bauthor{\bsnm{Fedorov}, \binits{D.A.}},
+\bauthor{\bsnm{Peng}, \binits{B.}},
+\bauthor{\bsnm{Govind}, \binits{N.}},
+\bauthor{\bsnm{Alexeev}, \binits{Y.}}:
+\batitle{Vqe method: A short survey and recent developments}.
+\bjtitle{arXiv preprint arXiv:2103.08505}
+(\byear{2021})
+\doiurl{10.48550/arXiv.2103.08505}
+\end{barticle}
+\endbibitem
+
+%%% 4
+\bibitem[\protect\citeauthoryear{Tilly et~al.}{2022}]{tilly2022}
+\begin{barticle}
+\bauthor{\bsnm{Tilly}, \binits{J.}},
+\bauthor{\bsnm{Chen}, \binits{H.}},
+\bauthor{\bsnm{Cao}, \binits{S.}},
+\bauthor{\bsnm{Picozzi}, \binits{D.}},
+\bauthor{\bsnm{Setia}, \binits{K.}},
+\bauthor{\bsnm{Li}, \binits{Y.}},
+\bauthor{\bsnm{Grant}, \binits{E.}},
+\bauthor{\bsnm{Wossnig}, \binits{L.}},
+\bauthor{\bsnm{Rungger}, \binits{I.}},
+\bauthor{\bsnm{Booth}, \binits{G.H.}},
+\bauthor{\bsnm{Tennyson}, \binits{J.}}:
+\batitle{The variational quantum eigensolver: a review of methods and best practices}.
+\bjtitle{Physics Reports}
+\bvolume{986},
+\bfpage{1}--\blpage{128}
+(\byear{2022})
+\doiurl{10.1016/j.physrep.2022.08.003}
+\end{barticle}
+\endbibitem
+
+%%% 5
+\bibitem[\protect\citeauthoryear{Roos et~al.}{1980}]{active_space}
+\begin{barticle}
+\bauthor{\bsnm{Roos}, \binits{B.O.}},
+\bauthor{\bsnm{Taylor}, \binits{P.R.}},
+\bauthor{\bsnm{Siegbahn}, \binits{P.E.M.}}:
+\batitle{A complete active space scf method (casscf) using a density matrix formulated super-ci approach}.
+\bjtitle{Chemical Physics}
+\bvolume{48}(\bissue{2}),
+\bfpage{157}--\blpage{173}
+(\byear{1980})
+\doiurl{10.1016/0301-0104(80)80045-0}
+\end{barticle}
+\endbibitem
+
+%%% 6
+\bibitem[\protect\citeauthoryear{Abraham et~al.}{2015}]{gromacs2015}
+\begin{botherref}
+\oauthor{\bsnm{Abraham}, \binits{M.J.}},
+\oauthor{\bsnm{Murtola}, \binits{T.}},
+\oauthor{\bsnm{Schulz}, \binits{R.}},
+\oauthor{\bsnm{Páll}, \binits{S.}},
+\oauthor{\bsnm{Smith}, \binits{J.C.}},
+\oauthor{\bsnm{Hess}, \binits{B.}},
+\oauthor{\bsnm{Lindahl}, \binits{E.}}:
+GROMACS: High performance molecular simulations through multi-level parallelism from laptops to supercomputers
+(2015).
+\doiurl{10.1016/j.softx.2015.06.001}
+\end{botherref}
+\endbibitem
+
+%%% 7
+\bibitem[\protect\citeauthoryear{Maier et~al.}{2015}]{amber_ff14sb}
+\begin{barticle}
+\bauthor{\bsnm{Maier}, \binits{J.A.}},
+\bauthor{\bsnm{Martinez}, \binits{C.}},
+\bauthor{\bsnm{Kasavajhala}, \binits{K.}},
+\bauthor{\bsnm{Wickstrom}, \binits{L.}},
+\bauthor{\bsnm{Hauser}, \binits{K.E.}},
+\bauthor{\bsnm{Simmerling}, \binits{C.}}:
+\batitle{ff14sb: Improving the accuracy of protein side chain and backbone parameters from ff99sb}.
+\bjtitle{Journal of Chemical Theory and Computation}
+\bvolume{11}(\bissue{8}),
+\bfpage{3696}--\blpage{3713}
+(\byear{2015})
+\doiurl{10.1021/acs.jctc.5b00255}
+\end{barticle}
+\endbibitem
+
+%%% 8
+\bibitem[\protect\citeauthoryear{Goddard et~al.}{2018}]{chimerax2018}
+\begin{barticle}
+\bauthor{\bsnm{Goddard}, \binits{T.D.}},
+\bauthor{\bsnm{Huang}, \binits{C.C.}},
+\bauthor{\bsnm{Meng}, \binits{E.C.}},
+\bauthor{\bsnm{Pettersen}, \binits{E.F.}},
+\bauthor{\bsnm{Couch}, \binits{G.S.}},
+\bauthor{\bsnm{Morris}, \binits{J.H.}},
+\bauthor{\bsnm{Ferrin}, \binits{T.E.}}:
+\batitle{Ucsf chimerax: Meeting modern challenges in visualization and analysis}.
+\bjtitle{Protein Science}
+\bvolume{27}(\bissue{1}),
+\bfpage{14}--\blpage{25}
+(\byear{2018})
+\doiurl{10.1002/pro.3235}
+\end{barticle}
+\endbibitem
+
+%%% 9
+\bibitem[\protect\citeauthoryear{}{}]{rdkit}
+\begin{botherref}
+RDKit: Open-source cheminformatics.
+\url{https://www.rdkit.org}.
+[Online; accessed 17-August-2025]
+\end{botherref}
+\endbibitem
+
+%%% 10
+\bibitem[\protect\citeauthoryear{Sun et~al.}{2020}]{pyscf2020}
+\begin{barticle}
+\bauthor{\bsnm{Sun}, \binits{Q.}},
+\bauthor{\bsnm{Zhang}, \binits{X.}},
+\bauthor{\bsnm{Banerjee}, \binits{S.}},
+\bauthor{\bsnm{Bao}, \binits{P.}},
+\bauthor{\bsnm{Barbry}, \binits{M.}},
+\bauthor{\bsnm{Blunt}, \binits{N.S.}},
+\bauthor{\bsnm{Bogdanov}, \binits{N.A.}},
+\bauthor{\bsnm{Booth}, \binits{G.H.}},
+\bauthor{\bsnm{Chen}, \binits{J.}},
+\bauthor{\bsnm{Cui}, \binits{Z.-H.}},
+\bauthor{\bsnm{Eriksen}, \binits{J.J.}},
+\bauthor{\bsnm{Gao}, \binits{Y.}},
+\bauthor{\bsnm{Guo}, \binits{S.}},
+\bauthor{\bsnm{Hermann}, \binits{J.}},
+\bauthor{\bsnm{Hermes}, \binits{M.R.}},
+\bauthor{\bsnm{Koh}, \binits{K.}},
+\bauthor{\bsnm{Koval}, \binits{P.}},
+\bauthor{\bsnm{Lehtola}, \binits{S.}},
+\bauthor{\bsnm{Li}, \binits{Z.}},
+\bauthor{\bsnm{Liu}, \binits{J.}},
+\bauthor{\bsnm{Mardirossian}, \binits{N.}},
+\bauthor{\bsnm{McClain}, \binits{J.D.}},
+\bauthor{\bsnm{Motta}, \binits{M.}},
+\bauthor{\bsnm{Mussard}, \binits{B.}},
+\bauthor{\bsnm{Pham}, \binits{H.Q.}},
+\bauthor{\bsnm{Pulkin}, \binits{A.}},
+\bauthor{\bsnm{Purwanto}, \binits{W.}},
+\bauthor{\bsnm{Robinson}, \binits{P.J.}},
+\bauthor{\bsnm{Ronca}, \binits{E.}},
+\bauthor{\bsnm{Sayfutyarova}, \binits{E.R.}},
+\bauthor{\bsnm{Scheurer}, \binits{M.}},
+\bauthor{\bsnm{Schurkus}, \binits{H.F.}},
+\bauthor{\bsnm{Smith}, \binits{J.E.T.}},
+\bauthor{\bsnm{Sun}, \binits{C.}},
+\bauthor{\bsnm{Sun}, \binits{S.-N.}},
+\bauthor{\bsnm{Upadhyay}, \binits{S.}},
+\bauthor{\bsnm{Wagner}, \binits{L.K.}},
+\bauthor{\bsnm{Wang}, \binits{X.}},
+\bauthor{\bsnm{White}, \binits{A.}},
+\bauthor{\bsnm{Whitfield}, \binits{J.D.}},
+\bauthor{\bsnm{Williamson}, \binits{M.J.}},
+\bauthor{\bsnm{Wouters}, \binits{S.}},
+\bauthor{\bsnm{Yang}, \binits{J.}},
+\bauthor{\bsnm{Yu}, \binits{J.M.}},
+\bauthor{\bsnm{Zhu}, \binits{T.}},
+\bauthor{\bsnm{Berkelbach}, \binits{T.C.}},
+\bauthor{\bsnm{Sharma}, \binits{S.}},
+\bauthor{\bsnm{Sokolov}, \binits{A.Y.}},
+\bauthor{\bsnm{Chan}, \binits{G.K.-L.}}:
+\batitle{Recent developments in the pyscf program package}.
+\bjtitle{Journal of Chemical Physics}
+\bvolume{153}(\bissue{2}),
+\bfpage{024109}
+(\byear{2020})
+\doiurl{10.1063/5.0006074}
+\end{barticle}
+\endbibitem
+
+%%% 11
+\bibitem[\protect\citeauthoryear{Abraham et~al.}{2019}]{qiskit2019}
+\begin{botherref}
+\oauthor{\bsnm{Abraham}, \binits{H.}},
+\oauthor{\bsnm{AduOffei}},
+\oauthor{\bsnm{Agarwal}, \binits{R.}},
+\oauthor{\bsnm{Akhalwaya}, \binits{I.Y.}},
+\oauthor{\bsnm{Aleksandrowicz}, \binits{G.}},
+\oauthor{\bsnm{Alexander}, \binits{T.}},
+\oauthor{\bsnm{Amy}, \binits{M.}},
+\oauthor{\bsnm{Arbel}, \binits{E.}},
+\oauthor{\bsnm{Ash}, \binits{A.}},
+\oauthor{\bsnm{Aswani}, \binits{A.}},
+\oauthor{\bsnm{al.}}:
+Qiskit: An Open-source Framework for Quantum Computing
+(2019).
+\doiurl{10.5281/zenodo.2562111}
+\end{botherref}
+\endbibitem
+
+%%% 12
+\bibitem[\protect\citeauthoryear{Team}{2021}]{qiskit_nature2021}
+\begin{botherref}
+\oauthor{\bsnm{Team}, \binits{Q.N.D.}}:
+Qiskit Nature: A library of quantum computing chemistry/physics experiments.
+\url{https://github.com/Qiskit/qiskit-nature}
+(2021).
+\doiurl{10.5281/zenodo.7828767}
+\end{botherref}
+\endbibitem
+
+%%% 13
+\bibitem[\protect\citeauthoryear{Becke}{1993}]{b3lyp}
+\begin{barticle}
+\bauthor{\bsnm{Becke}, \binits{A.D.}}:
+\batitle{Density‐functional thermochemistry. iii. the role of exact exchange}.
+\bjtitle{Journal of Chemical Physics}
+\bvolume{98}(\bissue{7}),
+\bfpage{5648}--\blpage{5652}
+(\byear{1993})
+\doiurl{10.1063/1.464913}
+\end{barticle}
+\endbibitem
+
+%%% 14
+\bibitem[\protect\citeauthoryear{Neese et~al.}{2020}]{orca2020}
+\begin{barticle}
+\bauthor{\bsnm{Neese}, \binits{F.}},
+\bauthor{\bsnm{Wennmohs}, \binits{F.}},
+\bauthor{\bsnm{Becker}, \binits{U.}},
+\bauthor{\bsnm{Riplinger}, \binits{C.}}:
+\batitle{The orca quantum chemistry program package}.
+\bjtitle{Journal of Chemical Physics}
+\bvolume{152}(\bissue{22}),
+\bfpage{224108}
+(\byear{2020})
+\doiurl{10.1063/5.0004608}
+\end{barticle}
+\endbibitem
+
+\end{thebibliography}
