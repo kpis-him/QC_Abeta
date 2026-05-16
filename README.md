@@ -1,6 +1,6 @@
 A Hybrid Quantum-Classical Computational Study of Amyloid Beta Variants
 
-Welcome to the repository. The repository is organized to include all the components of the computational study _A Hybrid Quantum-Classical Computational Study of Amyloid Beta Variants_.
+Welcome to the repository. The repository is organized to include all the components of the computational study **A Hybrid Quantum-Classical Computational Study of Amyloid Beta Variants**.
 
 - Analysis scripts: Calculations for B-sheet occupancy, Kuiper p-values, and the Kruskal-Wallis H-test
 - Arctic MD: Consists of the files generated and inputs for the Arctic MD trajectory
