@@ -1,4 +1,4 @@
-A Hybrid Quantum-Classical Computational Study of Amyloid Beta Variants
+**Integrated Molecular Dynamics and Quantum Electronic Structure Analysis of Arctic Amyloid-Beta**
 
 Welcome to the repository. The repository is organized to include all the components of the computational study **A Hybrid Quantum-Classical Computational Study of Amyloid Beta Variants**.
 
