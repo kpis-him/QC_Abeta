@@ -1,6 +1,6 @@
 **Integrated Molecular Dynamics and Quantum Electronic Structure Analysis of Arctic Amyloid-Beta**
 
-Welcome to the repository. The repository is organized to include all the components of the computational study **A Hybrid Quantum-Classical Computational Study of Amyloid Beta Variants**.
+Welcome to the repository. The repository is organized to include all the components of the computational study **Integrated Molecular Dynamics and Quantum Electronic Structure Analysis of Arctic Amyloid-Beta**.
 
 - **Analysis scripts**: Calculations for B-sheet occupancy, Kuiper p-values, and the Kruskal-Wallis H-test
 - **Arctic MD**: Consists of the files generated and inputs for the Arctic MD trajectory
@@ -10,7 +10,9 @@ Welcome to the repository. The repository is organized to include all the compon
 -**set 1-set 3 directories**: These directories contain 'set-specific' inputs and outputs generated during the Statevector VQE implementations
 - **IBM_Marrakesh_VQE.ipynb**: An implemented form of the VQE used for the hardware feasibility check on NISQ Hardware. **Note:** The IBM VQE implementation is only intended to be a test of feasibility rather than a definitive high-precision data point that defines the conclusions.
 
-**Main Physical Finding:** Across molecular dynamics, CASCI benchmarking, DFT, variational quantum eigensolver (VQE) simulations, and real quantum hardware execution, the results suggest that aggregation-prone Arctic conformations occupy a shallow near-degenerate energetic landscape rather than exhibiting large deterministic energetic stabilization. Frontier orbital and orbital-composition analyses further indicate subtle redistribution of backbone-associated electronic structure accompanying increased accessibility to B-sheet-favorable conformations.
+
+
+**Main Physical Finding:** Along with the methodological integration, we found that across molecular dynamics, CASCI benchmarking, DFT, variational quantum eigensolver (VQE) simulations, and real quantum hardware execution, the results suggest that aggregation-prone Arctic conformations occupy a shallow near-degenerate energetic landscape rather than exhibiting large deterministic energetic stabilization. Frontier orbital and orbital-composition analyses further indicate subtle redistribution of backbone-associated electronic structure accompanying increased accessibility to B-sheet-favorable conformations.
 
 
 
