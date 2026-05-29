@@ -12,7 +12,7 @@ Welcome to the repository. The repository is organized to include all the compon
 
 
 
-**Main Physical Finding:** Along with the methodological integration, we found that across molecular dynamics, CASCI benchmarking, DFT, variational quantum eigensolver (VQE) simulations, and real quantum hardware execution, the results suggest that aggregation-prone Arctic conformations occupy a shallow near-degenerate energetic landscape rather than exhibiting large deterministic energetic stabilization. Frontier orbital and orbital-composition analyses further indicate subtle redistribution of backbone-associated electronic structure accompanying increased accessibility to B-sheet-favorable conformations.
+**Main Physical Finding:** Along with the methodological integration, we found that across molecular dynamics, CASCI benchmarking, DFT, variational quantum eigensolver (VQE) simulations, and real quantum hardware execution, the results suggest that aggregation-prone Arctic conformations occupy a shallow near-degenerate energetic landscape rather than exhibiting large deterministic energetic stabilization. Frontier orbital and orbital-composition analyses further indicate a subtle redistribution of the backbone-associated electronic structure, accompanying increased accessibility to B-sheet-favorable conformations.
 
 
 
