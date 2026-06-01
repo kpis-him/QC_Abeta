@@ -14,6 +14,8 @@ Welcome to the repository. The repository is organized to include all the compon
 
 **Main Physical Finding:** Along with the methodological integration, we found that across molecular dynamics, CASCI benchmarking, DFT, variational quantum eigensolver (VQE) simulations, and real quantum hardware execution, the results suggest that aggregation-prone Arctic conformations occupy a shallow near-degenerate energetic landscape rather than exhibiting large deterministic energetic stabilization. Frontier orbital and orbital-composition analyses further indicate a subtle redistribution of the backbone-associated electronic structure, accompanying increased accessibility to B-sheet-favorable conformations.
 
+**Mainly,** a careful and well-benchmarked multiscale computational study showing that mutation-associated conformational shifts in Arctic ABeta are accompanied by consistent frontier-electronic trends across classical and quantum electronic-structure methods, while establishing a reproducible workflow for integrating MD, electronic structure theory, and quantum computing in biomolecular systems.
+
 
 
 
